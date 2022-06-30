@@ -1,17 +1,26 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Organización de eventos',
+    descripcionCurso:
+      'Motivaciones, necesidades o intereses varían al emprender un viaje; uno de ellos son los eventos. Quienes viajan a eventos pagan por temáticas y contenidos, pero también desean experiencias adicionales para su tiempo libre, como tours, compras, buena alimentación, alojamiento, diversión y esparcimiento, donde buscan experiencias inolvidables; es así como los eventos son un eje fundamental para el desarrollo socio económico.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/banner-principal-decorativo-4.png'),
       },
     ],
   },
@@ -32,31 +41,128 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Turismo de negocios y eventos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Eventos',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Historia de los eventos',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Clasificación de los eventos',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Eventos internacionales y nacionales más reconocidos',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Fases de los eventos',
+            hash: 't_1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Montajes de los eventos',
+            hash: 't_1_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.7',
+            titulo: 'Recursos para organización de eventos',
+            hash: 't_1_7',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.8',
+            titulo: 'Espacios para realización de eventos',
+            hash: 't_1_8',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.9',
+            titulo: 'Tendencias en eventos',
+            hash: 't_1_9',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.10',
+            titulo: 'Formatos de eventos online',
+            hash: 't_1_10',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.11',
+            titulo: 'Plataformas para desarrollar eventos virtuales',
+            hash: 't_1_11',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.11',
+            titulo: 'Mercadeo online para eventos',
+            hash: 't_1_12',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.12',
+            titulo: 'Costos en un evento',
+            hash: 't_1_13',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Experiencias en eventos',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo:
+              'Claves para lograr experiencias únicas en los asistentes a los eventos',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Ejemplos de experiencias en eventos',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Pasos para crear experiencias en eventos',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Sistemas de medición para los eventos',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Herramientas de innovación',
+            hash: 't_2_5',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -64,7 +170,6 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'actividad',
@@ -99,34 +204,87 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia:
+        'Andaluz, J. (2018). Análisis de la percepción de la comunidad local del Carnaval Internacional de Guaranda. Universidad de Especialidades Espíritu Santo. ',
+      link:
+        'https://1library.co/document/q5mxn77y-analisis-percepcion-comunidad-local-carnaval-internacional-guaranda.html ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Blog Fosbury. (2021). El marketing de eventos o cómo crear experiencias memorables. Fosbury Café. ',
+      link:
+        'https://eventosempresa.fosburycafe.es/ideasyconsejos/el-marketing-de-eventos-o-como-crear-experiencias-memorables/ ',
+    },
+    {
+      referencia:
+        'Cordero, L. (2016). La organización de eventos como herramienta de comunicación interna: Avon Cosmetics España [Trabajo fin de grado]. Universidad de Sevilla. ',
+      link:
+        'https://idus.us.es/bitstream/handle/11441/48294/CorderoLopez_Lucia_TFG_2016.pdf;jsessionid=ABFB63C6E2C28861D02F3DD09AF9E830?sequence=1 ',
+    },
+
+    {
+      referencia:
+        'González, F. y Morales, S. (2009). Ciudades efímeras: transformando el turismo urbano a través de la producción de eventos. Editorial UOC.',
+    },
+    {
+      referencia:
+        'Hazelton, J. (2020). Marketing experiencial – 4 ejemplos de marcas que acertaron. Eventtia. ',
+      link:
+        'https://www.eventtia.com/es/blog/marketing-experiencial-4-ejemplos-de-marcas-que-acertaron ',
+    },
+    {
+      referencia:
+        'Lojo, B. (2015). Turismo de Eventos: Clasificación, Evolución y Características. Impacto en las ciudades de Cartagena y Murcia. Universidad Politécnica de Cartagena. ',
+      link:
+        'https://repositorio.upct.es/bitstream/handle/10317/4916/tfm495.pdf?sequence=1&isAllowed=y ',
+    },
+    {
+      referencia:
+        'López, M. (2021). Recursos para la organización de actos. Protocolo.org. ',
+      link:
+        'https://www.protocolo.org/ceremonial/eventos/recursos-para-la-organizacion-de-actos.html',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Maestro de ceremonias:',
+      significado:
+        'es la persona que efectúa las presentaciones, da la bienvenida y despide las sesiones plenarias en un evento.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Recinto ferial:',
+      significado:
+        'edificio especializado en la celebración de ferias y exposiciones, con facilidades adicionales para celebrar reuniones de negocios relativas al evento ferial o a la exposición.',
+    },
+    {
+      termino: 'Stand:',
+      significado:
+        'espacio de exhibición en una feria o exposición que consta de una superficie determinada de piso de exposición y mamparas que lo separan de otros stands, además de un rótulo de identificación. ',
+    },
+    {
+      termino: 'Venues:',
+      significado:
+        'espacios no tradicionales en los cuales se pueden realizar eventos y certámenes.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
+      tema: 'Herramientas de marketing digital  ',
+      referencia:
+        'Galmés, M. (2010). La organización de eventos como herramienta de comunicación de marketing. Modelo integrado y experiencial [Tesis doctoral]. Universidad de Málaga. ',
+      tipo: 'Tesis doctoral. ',
+      link:
+        'https://dspace-libros.metabiblioteca.com.co/jspui/bitstream/001/356/5/978-84-9747-609-6.pdf ',
+    },
+    {
+      tema: 'Herramientas de innovación',
+      referencia:
+        'Borges, A. (2013). La innovación en la organización de eventos. Compé, Revista Científica de Comunicación, Protocolo y Eventos, (1), p. 46-60. ',
+      tipo: 'Artículo',
+      link:
+        'https://silo.tips/download/la-innovacion-en-la-organizacion-de-eventos ',
     },
   ],
   creditos: {
@@ -142,7 +300,27 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Fabio Alberto Ramírez',
+        cargo: 'Experto Temático',
+        centro: 'Regional Tolima - Centro Comercio y Servicios',
+      },
+      {
+        nombre: 'Gloria Alexandra Orejarena Barrios',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor Metodológico',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrector de Estilo',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
       },
     ],
     desarrolloProducto: [
@@ -150,48 +328,57 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: ['Nombre 1', 'Nombre 2'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Sergio Mauricio Valencia Martinez',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: [
+          'Zuleidy María Ruíz Torres',
+          'Wilson Andrés Arenales Cáceres',
+          'Gilberto Junior Rodríguez Rodríguez',
+        ],
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },

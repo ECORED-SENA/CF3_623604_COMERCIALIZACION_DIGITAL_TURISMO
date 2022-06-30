@@ -1,14 +1,18 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5(data-aos="fade")
   
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
-    
+    p El turismo, sin duda, ha sido uno de los sectores económicos que ha tenido grandes transformaciones, ha pasado de ser privilegio de pocos a convertirse en una necesidad, tanto de orden psicosocial como del sector productivo, el cual ha asumido el reto de salir para mantenerse o crecer. Para comenzar con este componente, se invita a explorar el video que se presenta a continuación:
+    figure.mb-4
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 </template>
 
 <script>

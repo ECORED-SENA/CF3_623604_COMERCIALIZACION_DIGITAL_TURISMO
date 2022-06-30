@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="851.52" height="302" viewBox="0 0 851.52 302">
+  <defs>
+    <filter id="Trazado_591766" x="0" y="0" width="836" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_320404" x="0" y="75" width="836" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_320404-2" x="0" y="150" width="836" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_320404-3" x="0" y="224" width="836" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_868515" data-name="Grupo 868515" transform="translate(-382.447 -6401)">
+    <g id="Grupo_868514" data-name="Grupo 868514" transform="translate(0 19)">
+      <g transform="matrix(1, 0, 0, 1, 382.45, 6382)" filter="url(#Trazado_591766)">
+        <path id="Trazado_591766-2" data-name="Trazado 591766" d="M10,0H808a10,10,0,0,1,10,10V50a10,10,0,0,1-10,10H10A10,10,0,0,1,0,50V10A10,10,0,0,1,10,0Z" transform="translate(9 6)" fill="#ed7d31"/>
+      </g>
+      <text id="Recuerde_diseñar_transiciones_entre_un_episodio_y_otro_para_garantizar_la_fluidez_de_la_experiencia_evitando_saltos_o_cortes_innecesarios._" data-name="Recuerde diseñar transiciones entre un episodio y otro, para garantizar la fluidez de la experiencia, evitando saltos o cortes innecesarios.
+
+
+
+
+" transform="translate(407.447 6394)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Recuerde diseñar transiciones entre un episodio y otro, para garantizar la fluidez de la experiencia, evitando </tspan><tspan x="0" y="41">saltos o cortes innecesarios.</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 382.45, 6382)" filter="url(#Rectángulo_320404)">
+        <rect id="Rectángulo_320404-4" data-name="Rectángulo 320404" width="818" height="60" rx="10" transform="translate(9 81)" fill="#4066a7"/>
+      </g>
+      <text id="Renuncie_a_comunicar_demasiados_temas_y_a_contar_todo_en_detalle._Seleccione_los_contenidos_que_le_interesa_transmitir_y_elija_hacerlo_con_la_profundidad_apropiada_para_interesar_y_no_aburrir_a_sus_visitantes._" data-name="Renuncie a comunicar demasiados temas y a contar todo en detalle. Seleccione los contenidos que le interesa transmitir y elija hacerlo con la profundidad apropiada para interesar –y no aburrir– a sus visitantes. 
+
+
+
+
+" transform="translate(407.373 6469)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Renuncie a comunicar demasiados temas y a contar todo en detalle. Seleccione los contenidos que le interesa </tspan><tspan x="0" y="40">transmitir y elija hacerlo con la profundidad apropiada para interesar –y no aburrir– a sus visitantes. </tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 382.45, 6382)" filter="url(#Rectángulo_320404-2)">
+        <rect id="Rectángulo_320404-5" data-name="Rectángulo 320404" width="818" height="60" rx="10" transform="translate(9 156)" fill="#ffc000"/>
+      </g>
+      <text id="Ordene_los_temas_en_función_de_la_comprensión_y_la_atención_de_sus_públicos_y_a_menos_que_esté_buscando_enfatizar_ciertos_conceptos_no_repita_contenidos._" data-name="Ordene los temas en función de la comprensión y la atención de sus públicos y, a menos que esté buscando enfatizar ciertos conceptos, no repita contenidos.
+
+
+
+" transform="translate(407.373 6544)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Ordene los temas en función de la comprensión y la atención de sus públicos y, a menos que esté buscando </tspan><tspan x="0" y="40">enfatizar ciertos conceptos, no repita contenidos.</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 382.45, 6382)" filter="url(#Rectángulo_320404-3)">
+        <rect id="Rectángulo_320404-6" data-name="Rectángulo 320404" width="818" height="60" rx="10" transform="translate(9 230)" fill="#5f914e"/>
+      </g>
+      <text id="Se_puede_basar_en_el_siguiente_recuadro_para_aprender_a_construir_un_itinerario_de_la_experiencia._" data-name="Se puede basar en el siguiente recuadro para aprender a construir un itinerario de la experiencia.
+
+
+
+
+" transform="translate(407.373 6631.634)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Se puede basar en el siguiente recuadro para aprender a construir un itinerario de la experiencia.</tspan></text>
+      <path id="Trazado_591762" data-name="Trazado 591762" d="M-3381.355-5908.908l22.271,18.649,22.809-18.649h-9.123v-19.052h-27.639v19.052Z" transform="translate(4570.242 12334.594)" fill="#48b3f8"/>
+      <path id="Trazado_591763" data-name="Trazado 591763" d="M-3381.355-5908.908l22.271,18.649,22.809-18.649h-9.123v-19.052h-27.639v19.052Z" transform="translate(4570.242 12413.594)" fill="#48b3f8"/>
+      <path id="Trazado_591764" data-name="Trazado 591764" d="M-3381.355-5908.908l22.271,18.649,22.809-18.649h-9.123v-19.052h-27.639v19.052Z" transform="translate(4570.242 12487.594)" fill="#48b3f8"/>
+      <path id="Trazado_591765" data-name="Trazado 591765" d="M-3381.355-5908.908l22.271,18.649,22.809-18.649h-9.123v-19.052h-27.639v19.052Z" transform="translate(4570.242 12559.594)" fill="#48b3f8"/>
+    </g>
+  </g>
+</svg>
