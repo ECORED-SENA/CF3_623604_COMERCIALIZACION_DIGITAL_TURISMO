@@ -101,7 +101,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.10',
-            titulo: 'Formatos de eventos online',
+            titulo: 'Formatos de eventos <i>online</i>',
             hash: 't_1_10',
           },
           {
@@ -112,13 +112,13 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Mercadeo online para eventos',
+            numero: '1.12',
+            titulo: 'Mercadeo <i>online</i> para eventos',
             hash: 't_1_12',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.12',
+            numero: '1.13',
             titulo: 'Costos en un evento',
             hash: 't_1_13',
           },
@@ -213,7 +213,7 @@ export default {
     },
     {
       referencia:
-        'Blog Fosbury. (2021). El marketing de eventos o cómo crear experiencias memorables. Fosbury Café. ',
+        'Blog Fosbury. (2021). El <i>marketing</i> de eventos o cómo crear experiencias memorables. Fosbury Café. ',
       link:
         'https://eventosempresa.fosburycafe.es/ideasyconsejos/el-marketing-de-eventos-o-como-crear-experiencias-memorables/ ',
     },
@@ -230,7 +230,7 @@ export default {
     },
     {
       referencia:
-        'Hazelton, J. (2020). Marketing experiencial – 4 ejemplos de marcas que acertaron. Eventtia. ',
+        'Hazelton, J. (2020). <i>Marketing</i> experiencial – 4 ejemplos de marcas que acertaron. Eventtia. ',
       link:
         'https://www.eventtia.com/es/blog/marketing-experiencial-4-ejemplos-de-marcas-que-acertaron ',
     },
@@ -249,31 +249,31 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Maestro de ceremonias:',
+      termino: 'Maestro de ceremonias',
       significado:
         'es la persona que efectúa las presentaciones, da la bienvenida y despide las sesiones plenarias en un evento.',
     },
     {
-      termino: 'Recinto ferial:',
+      termino: 'Recinto ferial',
       significado:
         'edificio especializado en la celebración de ferias y exposiciones, con facilidades adicionales para celebrar reuniones de negocios relativas al evento ferial o a la exposición.',
     },
     {
-      termino: 'Stand:',
+      termino: '<i>Stand</i>',
       significado:
         'espacio de exhibición en una feria o exposición que consta de una superficie determinada de piso de exposición y mamparas que lo separan de otros stands, además de un rótulo de identificación. ',
     },
     {
-      termino: 'Venues:',
+      termino: '<i>Venues</i>',
       significado:
         'espacios no tradicionales en los cuales se pueden realizar eventos y certámenes.',
     },
   ],
   complementario: [
     {
-      tema: 'Herramientas de marketing digital  ',
+      tema: 'Herramientas de <i>marketing</i> digital  ',
       referencia:
-        'Galmés, M. (2010). La organización de eventos como herramienta de comunicación de marketing. Modelo integrado y experiencial [Tesis doctoral]. Universidad de Málaga. ',
+        'Galmés, M. (2010). La organización de eventos como herramienta de comunicación de <i>marketing</i>. Modelo integrado y experiencial [Tesis doctoral]. Universidad de Málaga. ',
       tipo: 'Tesis doctoral. ',
       link:
         'https://dspace-libros.metabiblioteca.com.co/jspui/bitstream/001/356/5/978-84-9747-609-6.pdf ',

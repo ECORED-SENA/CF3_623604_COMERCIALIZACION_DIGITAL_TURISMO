@@ -228,20 +228,20 @@
         .row.justify-content-center
           .col-lg-11
             h5 Promoción e impacto en redes sociales
-            p Cada una de las plataformas sociales que existen en la web tiene, de manera individual, su sistema que mide alcance y cobertura de una actividad. Así, Facebook registra “me gusta”; Twitter registra tweets, etc.
+            p Cada una de las plataformas sociales que existen en la <i>web</i> tiene, de manera individual, su sistema que mide alcance y cobertura de una actividad. Así, Facebook registra “me gusta”; Twitter registra <i>tweets</i>, etc.
             p Estas métricas, en plataformas como Hootsuite y Buffer, se generan de manera automatizada. 
       .tarjeta.color-acento-botones.p-4(titulo="Satisfacción con el evento")
         .row.justify-content-center
           .col-lg-11
             h5 Promoción e impacto en redes sociales
-            p Establecer si los objetivos planeados se concretaron de manera adecuada y medir la satisfacción del usuario de manera ágil y directa se puede lograr a través del correo electrónico. En él, se envía un cuestionario, estructurando preguntas pertinentes, el cual puede ser diseñado a través de diversas herramientas web como Google forms, Typeform, entre otras.
+            p Establecer si los objetivos planeados se concretaron de manera adecuada y medir la satisfacción del usuario de manera ágil y directa se puede lograr a través del correo electrónico. En él, se envía un cuestionario, estructurando preguntas pertinentes, el cual puede ser diseñado a través de diversas herramientas <i>web</i> como Google forms, Typeform, entre otras.
 
-            p Se deben evaluar temas como: calidad de los ponentes, adecuación de las salas, horarios, disposición del personal del evento, instalaciones, tecnología, etc. Se puede hacer uso de una app específicamente para el evento, que pondere la calidad de la información y calidad de expositores, incrementando el índice de respuestas. Una sugerencia puede ser Meetmaps, que es un completo software que le permite al organizador de eventos comunicar, gamificar y seducir a los asistentes a través de una gran experiencia, antes, durante y después. 
+            p Se deben evaluar temas como: calidad de los ponentes, adecuación de las salas, horarios, disposición del personal del evento, instalaciones, tecnología, etc. Se puede hacer uso de una <i>app</i> específicamente para el evento, que pondere la calidad de la información y calidad de expositores, incrementando el índice de respuestas. Una sugerencia puede ser Meetmaps, que es un completo <i>software</i> que le permite al organizador de eventos comunicar, gamificar y seducir a los asistentes a través de una gran experiencia, antes, durante y después. 
       .tarjeta.color-acento-botones.p-4(titulo="<i>Engagement</i> y participación de los asistentes")
         .row.justify-content-center
           .col-lg-11
             h5 <i>Engagement</i> y participación de los asistentes
-            p El evento debe estar activo online antes, durante y después de su desarrollo. Si se creó un hashtag en especial para el evento, se puede medir contando cuántas veces fue usado por los usuarios; también puede medir posts o interacciones en redes sociales con respecto al evento, y adicionalmente, es importante escuchar las conversaciones que se crean alrededor del mismo para conocer la reputación online del evento.
+            p El evento debe estar activo <i>online</i> antes, durante y después de su desarrollo. Si se creó un <i>hashtag</i> en especial para el evento, se puede medir contando cuántas veces fue usado por los usuarios; también puede medir <i>posts</i> o interacciones en redes sociales con respecto al evento, y adicionalmente, es importante escuchar las conversaciones que se crean alrededor del mismo para conocer la reputación <i>online</i> del evento.
     separador
     #t_2_5.titulo-segundo.color-acento-contenido
       h2 2.5.	 Herramientas de innovación
@@ -251,10 +251,10 @@
       span.text-small  Proceso de innovación
     .tabla-b.color-acento-contenido.mb-0
       .tabla-b__header
-        h5.mb-0 Design Thinking
+        h5.mb-0 <i>Design Thinking</i>
       table
         tr.bgta
-          td Asiste al usuario en la creación e innovación de propuestas a partir del conocimiento del cliente y sus necesidades a satisfacer. Plantea soluciones a partir del problema a resolver, colabora con el diseño y desarrollo de productos y/o servicios. Design thinking utiliza la sensibilidad del diseñador y se fundamenta en la lógica, la imaginación, la intuición y el razonamiento sistémico explorando los posibles resultados que beneficiarían al usuario final.
+          td Asiste al usuario en la creación e innovación de propuestas a partir del conocimiento del cliente y sus necesidades a satisfacer. Plantea soluciones a partir del problema a resolver, colabora con el diseño y desarrollo de productos y/o servicios. <i>Design thinking</i> utiliza la sensibilidad del diseñador y se fundamenta en la lógica, la imaginación, la intuición y el razonamiento sistémico explorando los posibles resultados que beneficiarían al usuario final.
     .tabla-b.color-acento-contenido.mb-0
       .tabla-b__header
         h5.mb-0 ¿Quiénes lo usan?

@@ -97,7 +97,7 @@
         p.mb-0 El término evento tiene su origen en la expresión latina “eventus”, cuyo significado es acontecimiento, suceso o eventualidad. Un evento es una actividad especial que se realiza fuera de la rutina regular para celebrar un acontecimiento, el cual conlleva la generación de una planeación de espacios, su capacidad y disponibilidad, entre otros, y que se clasifica según su naturaleza.
           br
           br
-          | El marketing, el relacionamiento público y estrategas comunicadores consideran los eventos como una herramienta de divulgación dirigida a clientes potenciales, canales de comunicación y, en general, a toda la sociedad.
+          | El <i>marketing</i>, el relacionamiento público y estrategas comunicadores consideran los eventos como una herramienta de divulgación dirigida a clientes potenciales, canales de comunicación y, en general, a toda la sociedad.
     separador
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2.	Historia de los eventos  
@@ -133,9 +133,9 @@
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 2. ANTIGUA GRECIA
-            p.mt-5.mb-0 <strong>Olimpia:</strong>
+            p.mt-5.mb-0 <strong>Olimpia</strong>
             p La historia la define como el lugar que dio origen a los Juegos Olímpicos.
-            p.mt-4.mb-0 <strong>Juegos Olímpicos:</strong>
+            p.mt-4.mb-0 <strong>Juegos Olímpicos</strong>
             p Fueron una serie de competiciones atléticas disputadas por representantes de diversas Ciudades Estado de la Antigua Grecia.
             p.mt-4 Había menos eventos y solo los hombres solteros que hablaban griego podían competir.
             p.mt-4 Coronas de laurel, ramas de palmera, cintas de lana e incluso, a veces, alimentos para toda la vida eran premios.
@@ -366,7 +366,7 @@
 
               li 
                 i.fas.fa-check.c2
-                | Puede ser tipo buffet o servidos a la mesa.
+                | Puede ser tipo <i>buffet</i> o servidos a la mesa.
 
           .col-md-7.mt-4
             figure
@@ -378,7 +378,7 @@
             ul.lista-ul.mt-5
               li 
                 i.fas.fa-check.c2
-                | Rito social, compartido entre un grupo de personas, donde se marca un cierto acontecimiento a modo de celebración.  Se integra con una presentación artística, baile, shows, etc.
+                | Rito social, compartido entre un grupo de personas, donde se marca un cierto acontecimiento a modo de celebración.  Se integra con una presentación artística, baile, <i>shows</i>, etc.
 
 
               li 
@@ -512,7 +512,7 @@
             h5 5. Foro
             p.mt-4 Es una reunión enfocada a propiciar el intercambio de opiniones y conceptos por parte los integrantes del evento.
             p Se discute o responde a temas específicos de sus ponencias con el auditorio participante.
-            p Un moderador controla y guía las preguntas realizadas por el público hacia los ponentes. Se utiliza un lenguaje informal y coloquial, distribuyendo de forma igualitaria el uso de la palabra.
+            p Un moderador controla y guía las preguntas realizadas por el público hacia los ponentes. Se utiliza un <strong>lenguaje informal y coloquial</strong>, distribuyendo de forma igualitaria el uso de la palabra.
 
 
           .col-lg-5.mt-5
@@ -539,7 +539,7 @@
                 | <strong>Ferias comerciales:</strong> ocurren en un solo lugar y solo duran unos pocos días.
               li 
                 i.fas.fa-check.c2
-                | Lanzamientos de productos en un evento «cerrado»: duran aproximadamente 2 horas.
+                | <strong>Lanzamientos de productos en un evento «cerrado»:</strong> duran aproximadamente 2 horas.
           .col-md-6
             figure
               img(src='@/assets/curso/Tema1/08.png', alt='Texto que describa la imagen')
@@ -550,10 +550,10 @@
             ul.lista-ul
               li 
                 i.fas.fa-check.c2
-                | Se utilizan stands para mostrar los productos.
+                | Se utilizan <i>stands</i> para mostrar los productos.
               li 
                 i.fas.fa-check.c2
-                | En los stands, se pueden ubicar pantallas desplegables para crear un ambiente agradable.
+                | En los <i>stands</i>, se pueden ubicar pantallas desplegables para crear un ambiente agradable.
               li 
                 i.fas.fa-check.c2
                 | Las empresas pueden aspirar a generar clientes potenciales para ventas futuras o incluso realizar las ventas durante la celebración del evento.
@@ -679,11 +679,11 @@
 
                 li 
                   i.fas.fa-check.c2
-                  | Outdoor training.
+                  | <i>Outdoor training</i>.
 
                 li 
                   i.fas.fa-check.c2
-                  | Team building.
+                  | <i>Team building</i>.
 
                 li 
                   i.fas.fa-check.c2
@@ -691,7 +691,7 @@
 
                 li 
                   i.fas.fa-check.c2
-                  | Road shows.
+                  | <i>Road shows</i>.
 
             td Eventos relacionados con el mundo empresarial que tienen el objetivo principal de promover, comercializar o vender, o bien están relacionados con alguna esfera de la gestión empresarial.
             td Instituciones privadas (empresas).
@@ -1066,7 +1066,7 @@
                 .col-7
                   figure
                     img(src='@/assets/curso/Tema1/ico8.svg', alt='Texto que describa la imagen')
-              p.text-center Promoción / Marketing del Evento
+              p.text-center Promoción / <i>Marketing</i> del Evento
 
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
             .tarjeta--boton.color-primario.p-4
@@ -1572,7 +1572,7 @@
               img(src='@/assets/curso/Tema1/img54.png', alt='Texto que describa la imagen')   
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            h4 Lofts, áticos y azoteas privadas
+            h4 <i>Lofts</i>, áticos y azoteas privadas
             p.mt-4 Si necesita un espacio moderno, en el centro de la ciudad y para celebrar un evento con cierto aire desenfadado, debería añadir a la lista las azoteas, terrazas, áticos y <i>lofts</i> privados. 
             p Son ideales para acontecimientos en los que el número de asistentes no es muy grande. Si además el espacio tiene buenas vistas, el evento estará a la altura de todos.
           .col-md-7.mt-4
@@ -1613,7 +1613,7 @@
           .col-md-12.mb-5.mb-md-0
             LineaTiempoD.color-acento-botones
               p(numero="1" titulo="Eventos digitales") Es similar a un evento tradicional; marca la diferencia al ser un evento en línea y los asistentes se reúnen desde lugares diversos, a través de una plataforma. Las plataformas más usadas en eventos digitales son: Zoom, Meets, Webex, etc. Presenta algunas ventajas, como, por ejemplo: al organizador del evento le proporciona la alternativa de ampliar el número de participantes y ponentes que pueden estar ubicados en diferentes partes del mundo o que presentan incompatibilidad de horario. Desde la perspectiva del invitado, el formato de evento online le brinda la oportunidad de pagar un valor más reducido, estar en cualquier parte del mundo y, en ocasiones, ver el evento en horarios distintos al estipulado originalmente por la empresa (esto cuando se deja grabado).
-              p(numero="2" titulo="Eventos híbridos") Su característica principal se encuentra en la interacción y participación incrementada al combinar acciones físicas o materiales con la virtualidad. Se realiza con presencia física de los actores en diferentes sedes que están, a su vez, enlazadas vía streaming, posibilitando a los asistentes una retransmisión en vivo, entregando experiencias reales sincrónicas. En el espacio físico, normalmente asiste un reducido número de asistentes, y en la parte virtual, se usan plataformas audiovisuales y tecnológicas (videoconferencias en streaming, chats, etc.) a través de las cuales los asistentes pueden participar en el evento desde sus casas o ciudades de origen.<br>Cuenta con varias ventajas: ahorro en tiempo y gastos que se derivan de los traslados de asistentes y ponentes; la audiencia puede ser más grande; mejora el impacto en redes sociales y también posibilita el establecimiento de indicadores de medición de la trascendencia del evento y satisfacción de los asistentes.
+              p(numero="2" titulo="Eventos híbridos") Su característica principal se encuentra en la interacción y participación incrementada al combinar acciones físicas o materiales con la virtualidad. Se realiza con presencia física de los actores en diferentes sedes que están, a su vez, enlazadas vía <i>streaming</i>, posibilitando a los asistentes una retransmisión en vivo, entregando experiencias reales sincrónicas. En el espacio físico, normalmente asiste un reducido número de asistentes, y en la parte virtual, se usan plataformas audiovisuales y tecnológicas (videoconferencias en <i>streaming, chats,</i> etc.) a través de las cuales los asistentes pueden participar en el evento desde sus casas o ciudades de origen.<br>Cuenta con varias ventajas: ahorro en tiempo y gastos que se derivan de los traslados de asistentes y ponentes; la audiencia puede ser más grande; mejora el impacto en redes sociales y también posibilita el establecimiento de indicadores de medición de la trascendencia del evento y satisfacción de los asistentes.
               p(numero="3" titulo="Eventos en escenarios 3d con la personificación de avatares") Se usa una réplica de las fisonomías del rostro de la persona transformada a un avatar en 3D, es digital, se convierte en una figura digital capaz de interactuar de manera inmersiva en escenarios virtuales.
               p(numero="4" titulo="Eventos sostenibles") Acciones amigables con el medio ambiente es la consigna mundial hoy, razón por la cual, muchas empresas se enfocan en eventos que minimicen la afectación al ecosistema, promocionando la producción del lugar y la conexión con la naturaleza. Algunas medidas que se vienen utilizando son: ofrecimiento de medios de transporte menos contaminantes, el ajuste de las cantidades de alimentos sobrantes en comidas y cenas, etc. 
               p(numero="5" titulo="<i>Small meeting</i>") Consiste en organizar pequeños espacios y grupos de trabajo observando los protocolos de bioseguridad. Sus usuarios valoran el trabajo en equipo y refuerzan vínculos personales y profesionales con clientes, proveedores y colaboradores.          
@@ -1621,8 +1621,8 @@
         img(src='@/assets/curso/Tema1/img60.png', alt='Texto que describa la imagen')
     separador
     #t_1_10.titulo-segundo.color-acento-contenido
-      h2 1.10.	Formatos de eventos online
-    p Los formatos online son muy flexibles y permiten la adaptación de un formato de evento presencial como concierto, conferencia, congreso, feria, espectáculos y demás para su realización. Le invitamos a ver el siguiente recurso, en el que se explican algunos de ellos: 
+      h2 1.10.	Formatos de eventos <i>online</i>
+    p Los formatos <i>online</i> son muy flexibles y permiten la adaptación de un formato de evento presencial como concierto, conferencia, congreso, feria, espectáculos y demás para su realización. Le invitamos a ver el siguiente recurso, en el que se explican algunos de ellos: 
     .row
       .col-lg-6
         img(src='@/assets/curso/Tema1/img61.png', alt='Texto que describa la imagen')
@@ -1700,7 +1700,7 @@
                   .col-lg-5
                     img(src='@/assets/curso/Tema1/z1.svg', alt='Texto que describa la imagen')
 
-                p.mt-4 Plataforma intuitiva y fácil de usar. Transmite reuniones, conferencias y seminarios web con video, audio y mensajería instantánea. Dispone de versión premium, que posibilita el tener hasta 1.000 participantes y 10.000 espectadores, con herramientas interactivas.
+                p.mt-4 Plataforma intuitiva y fácil de usar. Transmite reuniones, conferencias y seminarios <i>web</i> con video, audio y mensajería instantánea. Dispone de versión premium, que posibilita el tener hasta 1.000 participantes y 10.000 espectadores, con herramientas interactivas.
             
             .row
               .col-md-12.mb-4.mb-md-0
@@ -1708,7 +1708,7 @@
                   .col-lg-3
                     img(src='@/assets/curso/Tema1/z2.svg', alt='Texto que describa la imagen')
 
-                p.mt-4 App de videoconferencias desarrollada por la compañía Google Inc, se accede desde buscadores web y dispositivos móviles; las empresas y organizaciones son sus principales usuarios, ya que fue ideada para dinamizar el entorno laboral. Cuenta con una interfaz sencilla, y para poder crear las reuniones, se debe tener activa una cuenta en Google.
+                p.mt-4 <i>App</i> de videoconferencias desarrollada por la compañía Google Inc, se accede desde buscadores <i>web</i> y dispositivos móviles; las empresas y organizaciones son sus principales usuarios, ya que fue ideada para dinamizar el entorno laboral. Cuenta con una interfaz sencilla, y para poder crear las reuniones, se debe tener activa una cuenta en Google.
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
@@ -1722,21 +1722,21 @@
                   .col-lg-8
                     img(src='@/assets/curso/Tema1/z4.svg', alt='Texto que describa la imagen')
 
-                p.mt-4 Permite tener hasta 6 expositores en vivo, compartir pantalla, y difundir el streaming por medio de Facebook, YouTube y LinkedIn para tener mayor alcance. Videoconferencias, notas, acceso a contenido compartido, Office Online, Planner, entre otras. 
+                p.mt-4 Permite tener hasta 6 expositores en vivo, compartir pantalla, y difundir el <i>streaming</i> por medio de Facebook, YouTube y LinkedIn para tener mayor alcance. Videoconferencias, notas, acceso a contenido compartido, Office Online, Planner, entre otras. 
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
                   .col-lg-4
                     img(src='@/assets/curso/Tema1/z5.svg', alt='Texto que describa la imagen')
 
-                p.mt-4 Se pueden hacer videoconferencias y congresos online. Cuenta con funciones para preguntas y respuestas.
+                p.mt-4 Se pueden hacer videoconferencias y congresos <i>online</i>. Cuenta con funciones para preguntas y respuestas.
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
                   .col-lg-6
                     img(src='@/assets/curso/Tema1/z6.svg', alt='Texto que describa la imagen')
 
-                p.mt-4 Puede crear videos en tiempo real, tanto para pequeños negocios como para grandes empresas. Puede usar esta herramienta para realizar demostraciones de productos, reuniones, seminarios, cursos online, capacitaciones o cualquier evento que necesite.
+                p.mt-4 Puede crear videos en tiempo real, tanto para pequeños negocios como para grandes empresas. Puede usar esta herramienta para realizar demostraciones de productos, reuniones, seminarios, cursos <i>online</i>, capacitaciones o cualquier evento que necesite.
 
 
 
@@ -1755,16 +1755,16 @@
           .cajon.color-acento-botones.p-4.mb-4
             p <strong>Desarrollar estrategias de mercadeo digital para la promoción de eventos no solo es importante en el antes, sino también en el durante y en el después de dichos eventos. Hoy en día, todo suceso pasa por Internet, que es un medio ideal para cualquier tipo de proceso; websites, plataformas digitales, apps han abierto un panorama inmenso al conseguir un mayor impacto y visibilidad para las organizaciones que comprenden que el consumidor moderno es autónomo, gestiona él mismo la información, es decir, es un cibernauta.</strong>
 
-        p Dicho esto, queda claro que los medios digitales representan una oportunidad para la formulación de estrategias de marca en las organizaciones. El mercadeo en este campo realiza métricas de marketing sincrónicas, interactuando con los consumidores y ajustando la estrategia a partir de los resultados. Esta flexibilidad y dinámica propia del marketing digital resulta, en términos económicos, más viable al comparar con los medios tradicionales de difusión, como radio, televisión o prensa. 
+        p Dicho esto, queda claro que los medios digitales representan una oportunidad para la formulación de estrategias de marca en las organizaciones. El mercadeo en este campo realiza métricas de <i>marketing</i> sincrónicas, interactuando con los consumidores y ajustando la estrategia a partir de los resultados. Esta flexibilidad y dinámica propia del marketing digital resulta, en términos económicos, más viable al comparar con los medios tradicionales de difusión, como radio, televisión o prensa. 
     .row.mt-4
       .col-lg-4
         img(src="@/assets/curso/Tema1/i4.svg")
-    p.mt-5 El marketing digital se refiere al conjunto de estrategias que se emplean para promocionar, en este caso, los eventos, ya sean presenciales o a través de alguna plataforma digital; a diferencia del marketing tradicional, este se hace a través de canales y métodos que permiten el análisis de los resultados en tiempo real, tal como lo podrá observar en el siguiente recurso, en el que encontrará detalles de la manera como los eventos son socializados a través de las redes sociales:
+    p.mt-5 El marketing digital se refiere al conjunto de estrategias que se emplean para promocionar, en este caso, los eventos, ya sean presenciales o a través de alguna plataforma digital; a diferencia del <i>marketing</i> tradicional, este se hace a través de canales y métodos que permiten el análisis de los resultados en tiempo real, tal como lo podrá observar en el siguiente recurso, en el que encontrará detalles de la manera como los eventos son socializados a través de las redes sociales:
     TabsC.color-primario
       .py-3.py-md-4(titulo="<i>Landing page</i>")
         .row
           .col-md-5.mb-4.mb-md-0
-            p Son páginas web personalizadas cuya finalidad es atraer visitantes y convertirlos en clientes potenciales presentando información de productos y/o servicios específicos. Se llega a ellas cuando el visitante a un sitio web accede a un hipervínculo de los que regularmente se encuentran allí. Para el caso de los eventos, el internauta accede a través de un banner en la red, que lo lleva a conocer rápidamente la información del evento como tal. El objetivo de estas landing pages es capturar la atención del visitante en pocos segundos, por lo tanto, no son sitios donde se compartan grandes detalles del evento, pero sí son un abre bocas al mismo, convirtiéndose en el primer acercamiento de la oferta al prospecto. 
+            p Son páginas <i>web</i> personalizadas cuya finalidad es atraer visitantes y convertirlos en clientes potenciales presentando información de productos y/o servicios específicos. Se llega a ellas cuando el visitante a un sitio <i>web</i> accede a un hipervínculo de los que regularmente se encuentran allí. Para el caso de los eventos, el internauta accede a través de un banner en la red, que lo lleva a conocer rápidamente la información del evento como tal. El objetivo de estas <i>landing pages</i> es capturar la atención del visitante en pocos segundos, por lo tanto, no son sitios donde se compartan grandes detalles del evento, pero sí son un abre bocas al mismo, convirtiéndose en el primer acercamiento de la oferta al prospecto. 
 
           .col-md-7
             figure
@@ -1779,7 +1779,7 @@
       .py-3.py-md-4(titulo="<i>Email marketing</i>")
         .row
           .col-md-5.mb-4.mb-md-0
-            p Correo electrónico diseñado de tal manera que motiva su lectura, redactado en términos sencillos y cuyo objetivo es cautivar al receptor y propiciar su participación en un evento. En la operación del email marketing es importante segmentar la demanda potencial; tener bases de datos clasificadas y organizadas es clave para obtener los logros planteados. 
+            p Correo electrónico diseñado de tal manera que motiva su lectura, redactado en términos sencillos y cuyo objetivo es cautivar al receptor y propiciar su participación en un evento. En la operación del <i>email marketing</i> es importante segmentar la demanda potencial; tener bases de datos clasificadas y organizadas es clave para obtener los logros planteados. 
 
           .col-md-7
             figure
@@ -1787,7 +1787,7 @@
       .py-3.py-md-4(titulo="Distribución de contenidos")
         .row
           .col-md-5.mb-4.mb-md-0
-            p Los contenidos digitales deben tener la facultad de atraer y retener el interés de los visitantes; se constituyen en una herramienta de promoción y venta de productos o servicios al ser integrados al desarrollo de un evento virtual. Existe una gran variedad de formatos para desarrollar los contenidos digitales en torno a la realización de un evento; entre ellos están: blogs, revistas, correos electrónicos, videos, e-books, etc.
+            p Los contenidos digitales deben tener la facultad de atraer y retener el interés de los visitantes; se constituyen en una herramienta de promoción y venta de productos o servicios al ser integrados al desarrollo de un evento virtual. Existe una gran variedad de formatos para desarrollar los contenidos digitales en torno a la realización de un evento; entre ellos están: <i>blogs</i>, revistas, correos electrónicos, videos, <i>e-books</i>, etc.
           .col-md-7
             figure
               img(src='@/assets/curso/Tema1/img83.png', alt='Texto que describa la imagen')
@@ -1809,7 +1809,7 @@
     .row.mt-4
       .col-lg-8
         img(src="@/assets/curso/Tema1/i5.svg")
-    p.mt-4 En el marketing digital, hay muchas opciones de plataformas, de tipos de contenidos, etc.; sin embargo, al ser un elemento casi intangible, la incertidumbre de aplicarla y de saber si se está empleando de manera apropiada es la constante en los organizadores de eventos. Hay quienes le apuntan al inbound marketing y, en él, al marketing de contenidos, pero, sin duda, se hace necesario establecer un procedimiento organizado y pensado en el consumidor, que permita el éxito de la estrategia. Sabiendo esto, le invitamos a ver el siguiente recurso, donde se presentan los pasos que conducen a la formulación de una adecuada estrategia de marketing digital en eventos:
+    p.mt-4 En el <i>marketing</i> digital, hay muchas opciones de plataformas, de tipos de contenidos, etc.; sin embargo, al ser un elemento casi intangible, la incertidumbre de aplicarla y de saber si se está empleando de manera apropiada es la constante en los organizadores de eventos. Hay quienes le apuntan al <i>inbound marketing</i> y, en él, al <i>marketing</i> de contenidos, pero, sin duda, se hace necesario establecer un procedimiento organizado y pensado en el consumidor, que permita el éxito de la estrategia. Sabiendo esto, le invitamos a ver el siguiente recurso, donde se presentan los pasos que conducen a la formulación de una adecuada estrategia de <i>marketing</i> digital en eventos:
     .row.justify-content-center
       .col-lg-10
         ImagenInfografica.color-acento-contenido.mb-5
@@ -1820,19 +1820,19 @@
           .tarjeta.color-acento-botones.p-3(x="32%" y="75%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 1. Objetivos claros:
-            p se deben responder preguntas como: ¿qué se quiere obtener? ¿Cuál es el público objetivo? ¿Qué actividades realizarán los convocados durante y después del evento? Algunos ejemplos pueden ser: aumentar la interacción con la comunidad, ampliar la red de contactos, aumentar ventas, etc.
+            p Se deben responder preguntas como: ¿qué se quiere obtener? ¿Cuál es el público objetivo? ¿Qué actividades realizarán los convocados durante y después del evento? Algunos ejemplos pueden ser: aumentar la interacción con la comunidad, ampliar la red de contactos, aumentar ventas, etc.
           .tarjeta.color-acento-botones.p-3(x="27%" y="50%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 2. Tipos de eventos online y plataformas para los mismos: 
-            p se debe definir el tipo de evento a realizar, bien sea conferencia, taller, exposición, etc., y luego proceder a escoger la plataforma. 
+            p Se debe definir el tipo de evento a realizar, bien sea conferencia, taller, exposición, etc., y luego proceder a escoger la plataforma. 
           .tarjeta.color-acento-botones.p-3(x="32%" y="24%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 3. Nombre impactante: 
-            p para definir el nombre ideal para el evento, se deben tener claros los valores de marca y lo que se desea resaltar y comunicar. Este debe ser sencillo, concordante con la materia del evento y que genere recordación.
+            p Para definir el nombre ideal para el evento, se deben tener claros los valores de marca y lo que se desea resaltar y comunicar. Este debe ser sencillo, concordante con la materia del evento y que genere recordación.
           .tarjeta.color-acento-botones.p-3(x="42%" y="9%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 4. Estética: 
-            p la información a transmitir debe ser diáfana y puntual, así como el desarrollo de la parte visual y estética.
+            p La información a transmitir debe ser diáfana y puntual, así como el desarrollo de la parte visual y estética.
           .tarjeta.color-acento-botones.p-3(x="67%" y="24%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 5. Definir la estrategia de comunicación:
@@ -1840,11 +1840,11 @@
           .tarjeta.color-acento-botones.p-3(x="72%" y="52%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 6. Crear un registro cómodo y seguro
-            p el proceso de registro debe ser simple, solicitud de información básica del asistente y datos de contacto.
+            p El proceso de registro debe ser simple, solicitud de información básica del asistente y datos de contacto.
           .tarjeta.color-acento-botones.p-3(x="67%" y="77%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 7. Definir los recursos físicos y humanos
-            p se debe asignar un presupuesto para los recursos materiales, tecnológicos y humanos. La idea también es definir los roles y las funciones de todo el personal dentro del evento.  
+            p Se debe asignar un presupuesto para los recursos materiales, tecnológicos y humanos. La idea también es definir los roles y las funciones de todo el personal dentro del evento.  
     separador
     #t_1_13.titulo-segundo.color-acento-contenido
       h2 1.13.	Costos en un evento
