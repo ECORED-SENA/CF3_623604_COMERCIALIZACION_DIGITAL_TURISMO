@@ -366,7 +366,7 @@
 
               li 
                 i.fas.fa-check.c2
-                | Puede ser tipo <i>buffet</i> o servidos a la mesa.
+                p Puede ser tipo  <i>buffet</i>  o servidos a la mesa.
 
           .col-md-7.mt-4
             figure
@@ -378,7 +378,7 @@
             ul.lista-ul.mt-5
               li 
                 i.fas.fa-check.c2
-                | Rito social, compartido entre un grupo de personas, donde se marca un cierto acontecimiento a modo de celebración.  Se integra con una presentación artística, baile, <i>shows</i>, etc.
+                p Rito social, compartido entre un grupo de personas, donde se marca un cierto acontecimiento a modo de celebración.  Se integra con una presentación artística, baile, <i>shows</i>, etc.
 
 
               li 
@@ -773,7 +773,7 @@
                   p <strong>Estimado aprendiz, de igual manera, le invitamos a ver el siguiente enlace, en el que podrá conocer los eventos nacionales más reconocidos:</strong> Aviatur, cronograma de eventos nacionales.
 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="('https://www.aviatur.com/blog/experiencias/ferias-y-fiestas-de-colombia')" target="_blank")
                     span Descargar
                     i.fas.fa-link
     separador
@@ -1146,7 +1146,7 @@
                   li
                     i.fas.fa-check.c2
                     p.mb-0 Llevar el balance detallado de los gastos efectuados. 
-              p(numero="4" titulo="Comunicación") Definir y llevar a cabo el plan de medios o plan de marketing del evento según el presupuesto asignado.
+              p(numero="4" titulo="Comunicación") Definir y llevar a cabo el plan de medios o plan de <i>marketing</i> del evento según el presupuesto asignado.
               p(numero="5" titulo="Seguridad") 
                 ul.lista-ul
                   li
@@ -1159,7 +1159,7 @@
         img(src='@/assets/curso/Tema1/img34.png', alt='Texto que describa la imagen')
     .row
       .col-lg-3
-        p.tta.text-center <strong>Promoción / Marketing del Evento</strong>              
+        p.tta.text-center <strong>Promoción / <i>Marketing</i> del Evento</strong>              
     .row.justify-content-center.mt-5
       .col-lg-8
         img(src='@/assets/curso/Tema1/img35.svg', alt='Texto que describa la imagen')
@@ -1580,7 +1580,7 @@
               img(src='@/assets/curso/Tema1/img55.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            h4 Espacios flexibles para branding
+            h4 Espacios flexibles para <i>branding</i>
             p.mt-4 Desde hace unos años, y probablemente debido a la crisis, muchos negocios <strong>han optado por usar locales, calles, casas, etc., durante un tiempo limitado para promocionarlo vender sus productos o servicios.</strong>Y la experiencia es siempre positiva.
 
           .col-md-7.mt-4
@@ -1612,7 +1612,7 @@
         .row.mb-5
           .col-md-12.mb-5.mb-md-0
             LineaTiempoD.color-acento-botones
-              p(numero="1" titulo="Eventos digitales") Es similar a un evento tradicional; marca la diferencia al ser un evento en línea y los asistentes se reúnen desde lugares diversos, a través de una plataforma. Las plataformas más usadas en eventos digitales son: Zoom, Meets, Webex, etc. Presenta algunas ventajas, como, por ejemplo: al organizador del evento le proporciona la alternativa de ampliar el número de participantes y ponentes que pueden estar ubicados en diferentes partes del mundo o que presentan incompatibilidad de horario. Desde la perspectiva del invitado, el formato de evento online le brinda la oportunidad de pagar un valor más reducido, estar en cualquier parte del mundo y, en ocasiones, ver el evento en horarios distintos al estipulado originalmente por la empresa (esto cuando se deja grabado).
+              p(numero="1" titulo="Eventos digitales") Es similar a un evento tradicional; marca la diferencia al ser un evento en línea y los asistentes se reúnen desde lugares diversos, a través de una plataforma. Las plataformas más usadas en eventos digitales son: Zoom, Meets, Webex, etc. Presenta algunas ventajas, como, por ejemplo: al organizador del evento le proporciona la alternativa de ampliar el número de participantes y ponentes que pueden estar ubicados en diferentes partes del mundo o que presentan incompatibilidad de horario. Desde la perspectiva del invitado, el formato de evento <i>online</i> le brinda la oportunidad de pagar un valor más reducido, estar en cualquier parte del mundo y, en ocasiones, ver el evento en horarios distintos al estipulado originalmente por la empresa (esto cuando se deja grabado).
               p(numero="2" titulo="Eventos híbridos") Su característica principal se encuentra en la interacción y participación incrementada al combinar acciones físicas o materiales con la virtualidad. Se realiza con presencia física de los actores en diferentes sedes que están, a su vez, enlazadas vía <i>streaming</i>, posibilitando a los asistentes una retransmisión en vivo, entregando experiencias reales sincrónicas. En el espacio físico, normalmente asiste un reducido número de asistentes, y en la parte virtual, se usan plataformas audiovisuales y tecnológicas (videoconferencias en <i>streaming, chats,</i> etc.) a través de las cuales los asistentes pueden participar en el evento desde sus casas o ciudades de origen.<br>Cuenta con varias ventajas: ahorro en tiempo y gastos que se derivan de los traslados de asistentes y ponentes; la audiencia puede ser más grande; mejora el impacto en redes sociales y también posibilita el establecimiento de indicadores de medición de la trascendencia del evento y satisfacción de los asistentes.
               p(numero="3" titulo="Eventos en escenarios 3d con la personificación de avatares") Se usa una réplica de las fisonomías del rostro de la persona transformada a un avatar en 3D, es digital, se convierte en una figura digital capaz de interactuar de manera inmersiva en escenarios virtuales.
               p(numero="4" titulo="Eventos sostenibles") Acciones amigables con el medio ambiente es la consigna mundial hoy, razón por la cual, muchas empresas se enfocan en eventos que minimicen la afectación al ecosistema, promocionando la producción del lugar y la conexión con la naturaleza. Algunas medidas que se vienen utilizando son: ofrecimiento de medios de transporte menos contaminantes, el ajuste de las cantidades de alimentos sobrantes en comidas y cenas, etc. 
@@ -1631,7 +1631,7 @@
           .row(titulo="Cumbre virtual")
             .col-md-12.mb-4.mb-md-0
               p El formato está diseñado en función del marketing; los ponentes presentan información específica tendiente a varios objetivos: captación de clientes, fidelización de los mismos, construcción de imagen y marca, etc., generando nuevos contenidos para su audiencia. El promedio de oradores es de 30 y su duración varía entre 3 y 10 días.
-          .row(titulo="Conferencias online")
+          .row(titulo="Conferencias <i>online</i>")
             .col-md-12.mb-4.mb-md-0
               p Sus oradores y temáticas son variadas, se realiza en vivo y cuenta con áreas virtuales de relajación, áreas para la práctica de networking y áreas de entretenimiento.
           .row(titulo="<i>Webinar</i>")
@@ -1681,7 +1681,7 @@
 
 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="('https://museonacional.gov.co/noticias/Paginas/Recorrido_virtual_sala1.aspx')" target="_blank")
                     span Descargar
                     i.fas.fa-link
     separador
@@ -1715,7 +1715,7 @@
                   .col-lg-3
                     img(src='@/assets/curso/Tema1/z3.svg', alt='Texto que describa la imagen')
 
-                p.mt-4 Es un espacio de trabajo diseñado para mejorar la comunicación y colaboración de los equipos de trabajo de las organizaciones, reforzando las funciones colaborativas de la plataforma en la nube de Microsoft. Cuenta con chats individuales y grupales, conversaciones de equipo, videoconferencias, notas, acceso a contenido compartido, Office Online, Planner, entre otras. 
+                p.mt-4 Es un espacio de trabajo diseñado para mejorar la comunicación y colaboración de los equipos de trabajo de las organizaciones, reforzando las funciones colaborativas de la plataforma en la nube de Microsoft. Cuenta con <i>chats</i> individuales y grupales, conversaciones de equipo, videoconferencias, notas, acceso a contenido compartido, Office Online, Planner, entre otras. 
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
@@ -1746,7 +1746,7 @@
     #t_1_12.titulo-segundo.color-acento-contenido
       h2 1.12.	 Mercadeo <i>online</i> para eventos
 
-    p Así como existen eventos presenciales, gracias a la globalización, que ha permitido la llegada de las tecnologías de la información y las comunicaciones – TIC, hoy por hoy existen varias plataformas que se han especializado en ofrecer un servicio de acuerdo con la demanda de un evento de este tipo. Le invitamos a ver el siguiente recurso, donde se presentan las diferentes plataformas empleadas para desarrollar eventos virtuales:
+    p Los eventos virtuales, al igual que los presenciales, deben despertar emociones en los asistentes. Organizadores de eventos, fiestas, conciertos, etc., con muchos años de experiencia, han comenzado a migrar sus servicios al mundo online, y para ello, ha sido esencial contar con una planificación y estrategias de mercadeo que logren afianzar sus relaciones con los clientes y conectarlos con los valores de la marca. 
     .row
       .col-lg-6
         img(src='@/assets/curso/Tema1/img70.png', alt='Texto que describa la imagen')
