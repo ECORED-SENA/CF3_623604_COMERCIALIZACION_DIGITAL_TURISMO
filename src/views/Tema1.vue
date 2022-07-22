@@ -774,7 +774,7 @@
 
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://www.aviatur.com/blog/experiencias/ferias-y-fiestas-de-colombia')" target="_blank")
-                    span Descargar
+                    span Ver
                     i.fas.fa-link
     separador
     #t_1_5.titulo-segundo.color-acento-contenido
@@ -1630,7 +1630,7 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Cumbre virtual")
             .col-md-12.mb-4.mb-md-0
-              p El formato está diseñado en función del marketing; los ponentes presentan información específica tendiente a varios objetivos: captación de clientes, fidelización de los mismos, construcción de imagen y marca, etc., generando nuevos contenidos para su audiencia. El promedio de oradores es de 30 y su duración varía entre 3 y 10 días.
+              p El formato está diseñado en función del <i>marketing</i>; los ponentes presentan información específica tendiente a varios objetivos: captación de clientes, fidelización de los mismos, construcción de imagen y marca, etc., generando nuevos contenidos para su audiencia. El promedio de oradores es de 30 y su duración varía entre 3 y 10 días.
           .row(titulo="Conferencias <i>online</i>")
             .col-md-12.mb-4.mb-md-0
               p Sus oradores y temáticas son variadas, se realiza en vivo y cuenta con áreas virtuales de relajación, áreas para la práctica de networking y áreas de entretenimiento.
@@ -1682,7 +1682,7 @@
 
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://museonacional.gov.co/noticias/Paginas/Recorrido_virtual_sala1.aspx')" target="_blank")
-                    span Descargar
+                    span Ver
                     i.fas.fa-link
     separador
     #t_1_11.titulo-segundo.color-acento-contenido
@@ -1755,11 +1755,11 @@
           .cajon.color-acento-botones.p-4.mb-4
             p <strong>Desarrollar estrategias de mercadeo digital para la promoción de eventos no solo es importante en el antes, sino también en el durante y en el después de dichos eventos. Hoy en día, todo suceso pasa por Internet, que es un medio ideal para cualquier tipo de proceso; websites, plataformas digitales, apps han abierto un panorama inmenso al conseguir un mayor impacto y visibilidad para las organizaciones que comprenden que el consumidor moderno es autónomo, gestiona él mismo la información, es decir, es un cibernauta.</strong>
 
-        p Dicho esto, queda claro que los medios digitales representan una oportunidad para la formulación de estrategias de marca en las organizaciones. El mercadeo en este campo realiza métricas de <i>marketing</i> sincrónicas, interactuando con los consumidores y ajustando la estrategia a partir de los resultados. Esta flexibilidad y dinámica propia del marketing digital resulta, en términos económicos, más viable al comparar con los medios tradicionales de difusión, como radio, televisión o prensa. 
+        p Dicho esto, queda claro que los medios digitales representan una oportunidad para la formulación de estrategias de marca en las organizaciones. El mercadeo en este campo realiza métricas de <i>marketing</i> sincrónicas, interactuando con los consumidores y ajustando la estrategia a partir de los resultados. Esta flexibilidad y dinámica propia del <i>marketing</i> digital resulta, en términos económicos, más viable al comparar con los medios tradicionales de difusión, como radio, televisión o prensa. 
     .row.mt-4
       .col-lg-4
         img(src="@/assets/curso/Tema1/i4.svg")
-    p.mt-5 El marketing digital se refiere al conjunto de estrategias que se emplean para promocionar, en este caso, los eventos, ya sean presenciales o a través de alguna plataforma digital; a diferencia del <i>marketing</i> tradicional, este se hace a través de canales y métodos que permiten el análisis de los resultados en tiempo real, tal como lo podrá observar en el siguiente recurso, en el que encontrará detalles de la manera como los eventos son socializados a través de las redes sociales:
+    p.mt-5 El <i>marketing</i> digital se refiere al conjunto de estrategias que se emplean para promocionar, en este caso, los eventos, ya sean presenciales o a través de alguna plataforma digital; a diferencia del <i>marketing</i> tradicional, este se hace a través de canales y métodos que permiten el análisis de los resultados en tiempo real, tal como lo podrá observar en el siguiente recurso, en el que encontrará detalles de la manera como los eventos son socializados a través de las redes sociales:
     TabsC.color-primario
       .py-3.py-md-4(titulo="<i>Landing page</i>")
         .row
