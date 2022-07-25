@@ -304,22 +304,22 @@ export default {
       },
       {
         nombre: 'Fabio Alberto Ramírez',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro: 'Regional Tolima - Centro Comercio y Servicios',
       },
       {
         nombre: 'Gloria Alexandra Orejarena Barrios',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Asesor Metodológico',
+        cargo: 'Asesor metodológico',
         centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
       },
       {
         nombre: 'Darío González',
-        cargo: 'Corrector de Estilo',
+        cargo: 'Corrector de estilo',
         centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
       },
     ],
