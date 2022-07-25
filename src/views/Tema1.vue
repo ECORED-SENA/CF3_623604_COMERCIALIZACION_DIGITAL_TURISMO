@@ -760,7 +760,7 @@
     p Sin duda, los eventos hacen parte de la historia misma de la humanidad, con ellos se conmemoran fechas y momentos especiales, y muchos de ellos, por el motivo o la majestuosidad del evento, se hacen inolvidables, marcando hitos en la historia. Le invitamos a ver, en el siguiente recurso, algunos de los eventos internacionales más reconocidos:
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ybpIiGWRmuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center
       .col-lg-10
         .tarjeta.color-primario.p-3.mb-5
