@@ -81,35 +81,35 @@
     .row
       .col-lg-6
         img(src='@/assets/curso/tema2/img8.svg', alt='Texto que describa la imagen')
-      .col-lg-6
+      .col-lg-6.mt-2
         .tarjeta.tarjeta--azul.p-4.mb-5.qaw
-          SlyderA(tipo="b")
+          SlyderA.pp(tipo="b")
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
                   .col-lg-5
-                    img(src='@/assets/curso/tema2/ico1.svg', alt='Texto que describa la imagen')
+                    img.baqw(src='@/assets/curso/tema2/ico1.svg', alt='Texto que describa la imagen')
 
                 p.mt-4.text-center Red Bull ha logrado posicionar su marca a través de eventos deportivos de acción, se encarga de generar emociones fuertes y hacer que los asistentes identifiquen la marca con fuerza, adrenalina y aventura. Con sus eventos, la compañía no solo tiene el poder de atraer a quienes disfrutan de su producto, sino a los que no lo hacen pero definen los shows como algo memorable. 
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
                   .col-lg-4
-                    img(src='@/assets/curso/tema2/ico2.svg', alt='Texto que describa la imagen')
+                    img.baqw(src='@/assets/curso/tema2/ico2.svg', alt='Texto que describa la imagen')
 
                 p.mt-4.text-center Airbnb Experiences es una plataforma en la que los usuarios experimentan nuevos aspectos de los destinos. Le brinda la posibilidad al usuario de participar de tours, vivir como locales y, en el 2018, lanzó Airbnb Concerts, donde se puede acceder a diversos espectáculos en vivo, originados desde cualquier posición en nuestro planeta.
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
                   .col-lg-4
-                    img(src='@/assets/curso/tema2/ico3.svg', alt='Texto que describa la imagen')
+                    img.baqw(src='@/assets/curso/tema2/ico3.svg', alt='Texto que describa la imagen')
 
                 p.mt-4.text-center Gestiona sus clientes a partir de la información que reposa en sus bases de datos, creando experiencias personalizadas transmitidas en los eventos. Dentro de las experiencias destacables, se encuentra el lanzamiento de nuevos servicios para los tarjetahabientes; Amex se incorpora al Festival de música y artes Coachella, donde sus clientes disfrutan de todo tipo de privilegios VIP, generando lealtad y fidelización en sus consumidores.
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
                   .col-lg-4
-                    img(src='@/assets/curso/tema2/ico4.svg', alt='Texto que describa la imagen')
+                    img.baqw(src='@/assets/curso/tema2/ico4.svg', alt='Texto que describa la imagen')
 
                 p.mt-4.text-center “Durante este 2019, LG Electronics se asoció con Pantone Color Institute para traer a NY un café pop-up para exhibir cómo el nuevo producto de televisión de LG enfatiza el poder del color y los sentidos humanos a través del gusto, vista y tacto. Los clientes cenaron deliciosas especialidades mientras baristas locales servían lattes saborizados y postres inspirados en los cuatro colores del reporte Fashion Color Summer 2019 de Pantone” (Hazelton, 2020). 
     separador
@@ -251,19 +251,19 @@
       span.text-small  Proceso de innovación
     .tabla-b.color-acento-contenido.mb-0
       .tabla-b__header
-        h5.mb-0 <i>Design Thinking</i>
+        h4.mb-0 <i>Design Thinking</i>
       table
         tr.bgta
           td Asiste al usuario en la creación e innovación de propuestas a partir del conocimiento del cliente y sus necesidades a satisfacer. Plantea soluciones a partir del problema a resolver, colabora con el diseño y desarrollo de productos y/o servicios. <i>Design thinking</i> utiliza la sensibilidad del diseñador y se fundamenta en la lógica, la imaginación, la intuición y el razonamiento sistémico explorando los posibles resultados que beneficiarían al usuario final.
     .tabla-b.color-acento-contenido.mb-0
       .tabla-b__header
-        h5.mb-0 ¿Quiénes lo usan?
+        h4.mb-0 ¿Quiénes lo usan?
       table
         tr.bgta
           td Al ser un gran generador de innovación, su uso aplica a cualquier organización. Empresas que desarrollen productos o servicios, hasta aquellas que desean establecer mejoras a sus procesos o requieren definir el modelo de negocio.
     .tabla-b.color-acento-contenido.mb-0
       .tabla-b__header
-        h5.mb-0 ¿Cómo se desarrolla?
+        h4.mb-0 ¿Cómo se desarrolla?
       table
         tr.bgta
           td <strong>Paso 1.</strong> Empatizar: el profundizar en las necesidades de los usuarios potenciales requiere interacción con ellos. Se pueden usar técnicas como las entrevistas en profundidad, la observación, la grabación de video, grupos focales, entre otras, para conocer sus problemas, necesidades y deseos.

@@ -20,7 +20,7 @@
       .col-lg-8.bg1
         .row
           .col-lg-12.mt-4
-            h4.text-center TURISMO DE NEGOCIOS Y EVENTOS
+            h3.text-center TURISMO DE NEGOCIOS Y EVENTOS
         .row.justify-content-center.mt-4
           .col-lg-6
             h5 TÉRMINO ANGLOSAJON
@@ -45,15 +45,15 @@
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar.bg2
-          img(src='@/assets/curso/Tema1/ico1.svg' alt='AvatarTop')
+          img.marq(src='@/assets/curso/Tema1/ico1.svg' alt='AvatarTop')
           .tarjeta
             .p-5
               p.text-center Es el que se realiza cuando el viajero se desplaza con objetivos comerciales, para consolidar vínculos económicos, establecer contactos entre empresas y entablar relaciones entre empresas y posibles socios de negocios.
-        .row.justify-content-center.mtq
-          .col-lg-2
-            img(src='@/assets/curso/Tema1/n1.png' alt='AvatarTop')
-          .col-lg-7
-            h4.text-center Turismo de negocios corporativo
+            .row.justify-content-center.mtq.mt-3
+              .col-lg-2
+                img.cel(src='@/assets/curso/Tema1/n1.png' alt='AvatarTop')
+              .col-lg-7
+                h4.text-center Turismo de negocios corporativo
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar.bg3
@@ -61,11 +61,11 @@
           .tarjeta
             .p-5
               p.text-center Es el que se ocupa de los viajes y desplazamientos para asistir a congresos, reuniones o convenciones, pero también engloba el turismo de incentivos y el de ferias comerciales y profesionales.
-        .row.justify-content-center.mtq
-          .col-lg-2
-            img(src='@/assets/curso/Tema1/n2.png' alt='AvatarTop')
-          .col-lg-8
-            h4.text-center <i>MICE (Meetings, Incentives, Conferences and Exhibitions)</i>
+            .row.justify-content-center.mtq.mt-2
+              .col-lg-2
+                img.cel(src='@/assets/curso/Tema1/n2.png' alt='AvatarTop')
+              .col-lg-8
+                h4.text-center <i>MICE (Meetings, Incentives, Conferences and Exhibitions)</i>
 
 
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -74,11 +74,12 @@
           .tarjeta
             .p-5
               p.text-center Viajes que se realizan para asistir a cursos de formación, es el turismo <i>training / outdoor</i>.
-        .row.justify-content-center.mtq
-          .col-lg-2
-            img(src='@/assets/curso/Tema1/n3.png' alt='AvatarTop')
-          .col-lg-7.mt-3
-            h4.text-center Turismo de formación
+            .row.mt-4
+            .row.justify-content-center.mtq.mt-5
+              .col-lg-2
+                img.cel(src='@/assets/curso/Tema1/n3.png' alt='AvatarTop')
+              .col-lg-7.mt-3
+                h4.text-center Turismo de formación
     p.mt-4 Al hablar de turismo de negocios, es importante definir algunas de las características propias de este tipo de actividad, pues esta clasificación del turismo facilita, por tanto, el desarrollo turístico de un destino, ya que lo destaca en el mapa turístico, contribuyendo a la generación de empleo, desarrollo empresarial, permite la creación y mejora de la infraestructura vial, realza los valores culturales y patrimoniales y se convierte en motor de desarrollo para otros renglones de la economía.
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Figura 2. 
@@ -103,7 +104,7 @@
       h2 1.2.	Historia de los eventos  
     p Un evento es un acontecimiento que se organiza de manera previa, con el propósito de convocar un grupo de personas para un propósito en común, ya sea de orden social, político, religioso, de negocios, entre otros. Conozca un poco acerca de cómo surgen lo eventos a través de la historia:
     .tarjeta.tarjeta--azul.p-4.mb-5.fon1    
-      SlyderA.mt-5.fon1(tipo="b")
+      SlyderA.mt-5.fon1.aq(tipo="b")
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 1. GRECIA   3000  a. C.
@@ -279,10 +280,10 @@
     p Existen diferentes clases de eventos, entre ellos, se encuentran eventos académicos, cuya finalidad es compartir y divulgar información sobre un tema de interés en un área específica; eventos sociales, reuniones para compartir o celebrar algún acontecimiento específico (celebraciones, negocios…); y eventos de promoción comercial, cuyo objetivo es promocionar a las empresas de cualquier sector. Hacen parte de la actividad empresarial de las organizaciones y, por tanto, de las estrategias de mercadeo. 
     p Dentro de la clasificación de eventos, se tienen los eventos de tipo social, que son los eventos más comunes y frecuentes a lo largo de la historia de la humanidad. Le invitamos a ver el siguiente recurso, donde conocerá en detalle diferentes elementos de estos eventos: 
     .tarjeta.tarjeta--azul.p-4.mb-5.fon2   
-      SlyderA.mt-5.fon2(tipo="b")
+      SlyderA.mt-5.fon2.aq(tipo="b")
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            h5 Eventos sociales
+            h4 Eventos sociales
 
             p.mt-5 Cuando el evento se desarrolla dentro de alguna instalación, como hoteles, clubes sociales u otros recintos que lo permitan. Se encuentran:
             p.mb-0.mt-4 1. Coctel
@@ -296,7 +297,7 @@
               img(src='@/assets/curso/Tema1/122.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            h5 1. Coctel
+            h4 1. Coctel
 
             ul.lista-ul.mt-5
               li 
@@ -316,7 +317,7 @@
               img(src='@/assets/curso/Tema1/123.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            h5 Características de un coctel
+            h4 Características de un coctel
 
             ul.lista-ul.mt-5
               li 
@@ -345,7 +346,7 @@
               img(src='@/assets/curso/Tema1/133.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            h5 2. Desayuno, almuerzo o cena de trabajo
+            h4 2. Desayuno, almuerzo o cena de trabajo
 
             ul.lista-ul.mt-5
               li 
@@ -373,7 +374,7 @@
               img(src='@/assets/curso/Tema1/06.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            h5 3. Fiesta
+            h4 3. Fiesta
 
             ul.lista-ul.mt-5
               li 
@@ -395,7 +396,7 @@
               img(src='@/assets/curso/Tema1/144.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            h5 4. Festival
+            h4 4. Festival
 
             ul.lista-ul.mt-5
               li 
@@ -536,10 +537,10 @@
             ul.lista-ul
               li 
                 i.fas.fa-check.c2
-                | <strong>Ferias comerciales:</strong> ocurren en un solo lugar y solo duran unos pocos días.
+                p <strong>Ferias comerciales:</strong> ocurren en un solo lugar y solo duran unos pocos días.
               li 
                 i.fas.fa-check.c2
-                | <strong>Lanzamientos de productos en un evento «cerrado»:</strong> duran aproximadamente 2 horas.
+                p <strong>Lanzamientos de productos en un evento «cerrado»:</strong> duran aproximadamente 2 horas.
           .col-md-6
             figure
               img(src='@/assets/curso/Tema1/08.png', alt='Texto que describa la imagen')
@@ -550,10 +551,10 @@
             ul.lista-ul
               li 
                 i.fas.fa-check.c2
-                | Se utilizan <i>stands</i> para mostrar los productos.
+                p Se utilizan <i>stands</i> para mostrar los productos.
               li 
                 i.fas.fa-check.c2
-                | En los <i>stands</i>, se pueden ubicar pantallas desplegables para crear un ambiente agradable.
+                p En los <i>stands</i>, se pueden ubicar pantallas desplegables para crear un ambiente agradable.
               li 
                 i.fas.fa-check.c2
                 | Las empresas pueden aspirar a generar clientes potenciales para ventas futuras o incluso realizar las ventas durante la celebración del evento.
@@ -784,7 +785,7 @@
       h5 Figura 3. 
       span  Fases: pre-evento, evento y pos-evento
     .row.justify-content-center
-      .col-lg-8
+      .col-lg-7
         img(src="@/assets/curso/Tema1/i3.svg")
     p En la primera fase, que se conoce como pre-evento, se desarrollan las acciones que ayudan a posicionar una imagen única del evento en la mente y el corazón del público objetivo, por ello, es importante crear tácticas consistentes, que respalden la estrategia de comunicación de este. Esta primera fase tiene dos fases, que son la planeación y la organización del evento.
     p La planeación es la base del evento, esta fase consiste en formular planes que servirán de guía para el accionar del evento; esto implica establecer objetivos y acciones para alcanzar dichos objetivos. En el siguiente recurso, podrá encontrar todos los elementos que hacen parte de la fase de planeación:
@@ -796,79 +797,79 @@
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
         .tarjeta.color-acento-botones.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-7
               img(src='@/assets/curso/Tema1/n1.svg' alt='AvatarTop')
 
           p.text-center Nombre del evento.
         .tarjeta.color-acento-botones.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-7
               img(src='@/assets/curso/Tema1/n2.svg' alt='AvatarTop')
 
           p.text-center Temática.
         .tarjeta.color-acento-botones.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-7
               img(src='@/assets/curso/Tema1/n3.svg' alt='AvatarTop')
 
           p.text-center Definir el público objetivo y el tipo de expositores.
 
         .tarjeta.color-acento-botones.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-7
               img(src='@/assets/curso/Tema1/n4.svg' alt='AvatarTop')
 
           p.text-center Seleccionar las fechas.
 
         .tarjeta.color-acento-botones.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-7
               img(src='@/assets/curso/Tema1/n5.svg' alt='AvatarTop')
 
           p.text-center Seleccionar el lugar.
 
         .tarjeta.color-acento-botones.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-7
               img(src='@/assets/curso/Tema1/n6.svg' alt='AvatarTop')
 
           p.text-center Describir las actividades.
 
         .tarjeta.color-acento-botones.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-7
               img(src='@/assets/curso/Tema1/n7.svg' alt='AvatarTop')
 
           p.text-center Definir el programa.
         .tarjeta.color-acento-botones.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-7
               img(src='@/assets/curso/Tema1/n8.svg' alt='AvatarTop')
 
           p.text-center Definir los recursos.
         .tarjeta.color-acento-botones.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-7
               img(src='@/assets/curso/Tema1/n9.svg' alt='AvatarTop')
 
           p.text-center Diseñar el plano del montaje.
         .tarjeta.color-acento-botones.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-7
               img(src='@/assets/curso/Tema1/n10.svg' alt='AvatarTop')
 
           p.text-center Realizar cotización.
         .tarjeta.color-acento-botones.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-7
               img(src='@/assets/curso/Tema1/n11.svg' alt='AvatarTop')
 
           p.text-center Determinar fuentes de financiación.
       .tarjeta.tarjeta--azul.p-4.mb-5.fon3 
-        SlyderA.mt-5.fon3(tipo="b")
+        SlyderA.mt-5.fon3.aq2(tipo="b")
           .row.justify-content-center
             .col-md-5.mb-4.mb-md-0
-              h5 Temática, nombre y actividades.
+              h4 Temática, nombre y actividades.
               p.mt-5 Se elije la temática, el nombre y las actividades.
               ul.lista-ul.mt-5
                 li 
@@ -888,7 +889,7 @@
                 img(src='@/assets/curso/Tema1/img20.png', alt='Texto que describa la imagen')
           .row.justify-content-center
             .col-md-5.mb-4.mb-md-0
-              h5 Fecha y lugar
+              h4 Fecha y lugar
               p.mt-5 Para la selección de la fecha:
               ul.lista-ul
                 li 
@@ -898,13 +899,24 @@
                 li 
                   i.fas.fa-check.c2
                   | Evitar que coincida con la fecha de una actividad similar o dirigida al mismo tipo de público.
+              .row.mt-5
+                .col-lg-12
+                  .tarjeta-avatar-b.mb-5
+                    .tarjeta-avatar-b__img
+                      img(src='@/assets/curso/Tema1/icono1.svg' alt='AvatarTop')
+                    .tarjeta.tarjeta--azul.c22
+                      .p-4
+                        h4 Recuerda
+                        p Pensar si es mejor en semana o fin de semana. 
+                        p Tener en cuenta los festivos y las temporadas de viajes (diciembre, enero, junio, octubre) puesto que muchas personas se van de vacaciones.
 
+                        
             .col-md-6.mt-4
               figure
                 img(src='@/assets/curso/Tema1/img21.png', alt='Texto que describa la imagen')
           .row.justify-content-center
             .col-md-5.mb-4.mb-md-0
-              h5 Para el lugar
+              h4 Para el lugar
               p.mt-5 En principios se debe elegir la Ciudad Sede y luego se seleccionarán las instalaciones específicas donde se realizará el evento, tomando en cuenta si cumplen con exigencias como: 
 
               ul.lista-ul
@@ -929,7 +941,7 @@
                 img(src='@/assets/curso/Tema1/img22.png', alt='Texto que describa la imagen')
           .row.justify-content-center
             .col-md-5.mb-4.mb-md-0
-              h5 El programa
+              h4 El programa
               ul.lista-ul.mt-5
                 li
                   i.fas.fa-check.c2
@@ -949,7 +961,7 @@
                 img(src='@/assets/curso/Tema1/img23.png', alt='Texto que describa la imagen')
           .row.justify-content-center
             .col-md-5.mb-4.mb-md-0
-              h5 Estimar los recursos
+              h4 Estimar los recursos
               p.mt-5 Se elijen los recursos humanos, materiales, tecnológicos.
 
               ul.lista-ul
@@ -967,7 +979,7 @@
                 img(src='@/assets/curso/Tema1/img24.png', alt='Texto que describa la imagen')
           .row.justify-content-center
             .col-md-5.mb-4.mb-md-0
-              h5 Diseñar el plano del montaje
+              h4 Diseñar el plano del montaje
               p.mt-5 Uno de los elementos más importantes del diseño y montaje del evento, es el formato de colocación de mesas y escenarios. Se deben tener en cuenta los siguientes parámetros:
               ul.lista-ul
                 li.mb-0
@@ -992,7 +1004,7 @@
                 img(src='@/assets/curso/Tema1/img25.png', alt='Texto que describa la imagen')
           .row.justify-content-center
             .col-md-5.mb-4.mb-md-0
-              h5 Elaborar presupuesto y solicitar cotizaciones
+              h4 Elaborar presupuesto y solicitar cotizaciones
               ul.lista-ul.mt-5
                 li
                   i.fas.fa-check.c2
@@ -1015,15 +1027,15 @@
                 img(src='@/assets/curso/Tema1/img27.png', alt='Texto que describa la imagen')
           .row.justify-content-center
             .col-md-11.mb-4.mb-md-0
-              h5 Ejemplo evento promoción comercial
+              h4 Ejemplo evento promoción comercial
               img(src='@/assets/curso/Tema1/img28.svg', alt='Texto que describa la imagen')
           .row.justify-content-center
             .col-md-11.mb-4.mb-md-0
-              h5 Ejemplo evento promoción comercial
+              h4 Ejemplo evento promoción comercial
               img(src='@/assets/curso/Tema1/img29.svg', alt='Texto que describa la imagen')
           .row.justify-content-center
             .col-md-11.mb-4.mb-md-0
-              h5 Fuentes de financiación
+              h4 Fuentes de financiación
               ul.lista-ul
                 li
                   i.fas.fa-check.c2
@@ -1043,14 +1055,14 @@
       .col-lg-3
         img(src='@/assets/curso/Tema1/img32.svg', alt='Texto que describa la imagen')
     .row
-      .col-lg-4
+      .col-lg-4.mt-2
         img(src='@/assets/curso/Tema1/img33.png', alt='Texto que describa la imagen')
       .col-lg-8
         .row.mt-4
           .col-lg-2
             img.aa(src='@/assets/curso/Tema1/ico6.svg', alt='Texto que describa la imagen')
-          .col-lg-9
-            h5 Definición de comités de trabajo:
+          .col-lg-9.mt-2
+            h4 Definición de comités de trabajo:
             p los comités son conjuntos de personas encargadas de un asunto en especial del evento.
         .row.mb-5
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -1058,14 +1070,15 @@
               .row.justify-content-center.mb-3
                 .col-7
                   figure
-                    img(src='@/assets/curso/Tema1/ico7.svg', alt='Texto que describa la imagen')
-              p.text-center Roles del equipo organizador
+                    img.baqw(src='@/assets/curso/Tema1/ico7.svg', alt='Texto que describa la imagen')
+              p.text-center.mb-4 Roles del equipo organizador
+              .row.mb-3
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
             .tarjeta--boton.color-primario.p-4
               .row.justify-content-center.mb-3
                 .col-7
                   figure
-                    img(src='@/assets/curso/Tema1/ico8.svg', alt='Texto que describa la imagen')
+                    img.baqw(src='@/assets/curso/Tema1/ico8.svg', alt='Texto que describa la imagen')
               p.text-center Promoción / <i>Marketing</i> del Evento
 
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -1073,15 +1086,15 @@
               .row.justify-content-center.mb-3
                 .col-7
                   figure
-                    img(src='@/assets/curso/Tema1/ico9.svg', alt='Texto que describa la imagen')
-              p.text-center Contratación de servicios
-
+                    img.baqw(src='@/assets/curso/Tema1/ico9.svg', alt='Texto que describa la imagen')
+              p.text-center.mb-4 Contratación de servicios
+              .row.mb-3
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
             .tarjeta--boton.color-primario.p-4
               .row.justify-content-center.mb-3
                 .col-7
                   figure
-                    img(src='@/assets/curso/Tema1/ico10.svg', alt='Texto que describa la imagen')
+                    img.baqw(src='@/assets/curso/Tema1/ico10.svg', alt='Texto que describa la imagen')
               p.text-center Acomodación según numero de asistentes
     .row
       .col-lg-3
@@ -1170,18 +1183,18 @@
       .col-lg-6.mt-4
         p Tener en cuenta:
         ul.lista-ul
-          li
+          li.mb-0
             i.fas.fa-check.c2
-            p Colores
-          li
+            p.mb-2 Colores
+          li.mb-0
             i.fas.fa-check.c2
-            p Temática
-          li
+            p.mb-2 Temática
+          li.mb-0
             i.fas.fa-check.c2
-            p Forma  y tamaño: cuadrado, circular, alargada, grande, mediana, pequeña
-          li
+            p.mb-2 Forma  y tamaño: cuadrado, circular, alargada, grande, mediana, pequeña
+          li.mb-0
             i.fas.fa-check.c2
-            p Información:  nombre del evento, breve descripción, fecha, lugar, hora. De ser necesario indicar el tipo de vestuario 
+            p.mb-2 Información:  nombre del evento, breve descripción, fecha, lugar, hora. De ser necesario indicar el tipo de vestuario 
       .col-lg-6
         img(src='@/assets/curso/Tema1/img36.png', alt='Texto que describa la imagen')
     .row.mt-5
@@ -1249,7 +1262,7 @@
               p.mb-0 Dicha evaluación también se debe consignar en el informe.
 
         
-      .col-lg-6
+      .col-lg-6.mt-2
         img(src='@/assets/curso/Tema1/img40.png' alt='AvatarTop')
     p.mt-4 Es importante cerrar el evento con los respectivos agradecimientos; es decir, se deben enviar cartas o un correo electrónico de agradecimiento a todas aquellas personas que hicieron posible que el evento se desarrollara conforme con lo previsto (patrocinadores, ponentes, etc.).
     separador
@@ -1257,10 +1270,10 @@
       h2 1.6.	Montajes de los eventos
     p Se reconoce como montaje del evento al proceso que se utiliza para diseñar los planos y secuencias de un <strong>evento</strong> o actividad, de forma que los asistentes perciban la integración armónica de todo lo que haga parte del mismo. Para entender mejor este tema, le invitamos a ver el siguiente recurso sobre los tipos de montajes de eventos: 
     .tarjeta.tarjeta--azul.p-4.mb-5.fon2   
-      SlyderA.mt-5.fon2(tipo="b")
+      SlyderA.mt-5.fon2.aq3(tipo="b")
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Tipo escuela
+            h4 Tipo escuela
             p.mt-4 Utilizado para realizar actividades de tipo académico,  pero con pocas personas.
             p.mt-4.mb-0 <strong>Su escenografía:</strong>
             p Una tarima con mesa principal y, frente a esta, mesas rectangulares con capacidad para alrededor de cuatro a seis personas; se dejan espacios entre cada mesa para que las personas puedan caminar sin problema.
@@ -1279,7 +1292,7 @@
               img(src='@/assets/curso/Tema1/img41.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Tipo auditorio
+            h4 Tipo auditorio
             p.mt-4 Se usa cuando se tienen actividades académicas con audiencias muy grandes, como, por ejemplo, asambleas, reuniones de funcionarios, asociaciones, entre otros. 
             p.mt-4.mb-0 <strong>Su escenografía:</strong>
             p Tiene filas rectas de asientos con un pasillo en el centro o dos pasillos laterales. Los asientos miran hacia el área del ponente. 
@@ -1296,7 +1309,7 @@
               img(src='@/assets/curso/Tema1/img42.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Tipo "U"
+            h4 Tipo "U"
             p.mt-4 Se utiliza para realizar actividades académicas o sociales para pocas personas (16 personas o menos). Si el grupo es mayor de 20 personas es preferible buscar otro estilo de disposición del salón.
 
             p.mt-4.mb-0 <strong>Su escenografía:</strong>
@@ -1312,7 +1325,7 @@
               img(src='@/assets/curso/Tema1/img43.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Tipo mesa imperial
+            h4 Tipo mesa imperial
             ul.lista-ul.mb-0.mt-4
               li.mb-0
                 i.fas.fa-check.c2
@@ -1335,7 +1348,7 @@
               img(src='@/assets/curso/Tema1/img44.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Tipo banquete
+            h4 Tipo banquete
             p.mt-4 Aunque su nombre es de banquete, no quiere decir que usted tiene que servir comida para disponer un salón de conferencias de esta manera. <br>Este tipo de estilo promueve trabajo en equipo y discusión en grupo. Pueden ser eventos sociales como desayunos, almuerzos o cenas, bodas, quince años, aniversarios, entre otros, o también pueden ser reuniones de trabajo.
             ul.lista-ul.mb-0.mt-4
               li.mb-0
@@ -1350,7 +1363,7 @@
               img(src='@/assets/curso/Tema1/img45.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Tipo coctel
+            h4 Tipo coctel
             p.mt-4 Es uno de los montajes más prácticos cuando se ofrece una alimentación ligera, precisamente para los cocteles, refrigerios, entre otros. 
             p.mt-4 Su uso favorece cuando hay muchos comensales y no se cuenta con un espacio amplio para atenderlos a todos; el montaje tipo coctel viene a resolver esta situación.
             p.mt-4  La ventaja es que ahorra espacio; sin embargo, se debe recordar que es para actividades que no duren más de una hora, debido a que los invitados estarán de pie.
@@ -1361,7 +1374,7 @@
               img(src='@/assets/curso/Tema1/img46.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Tipo lounge
+            h4 Tipo lounge
             p.mt-4 Hoy en día, se utiliza mucho para eventos sociales con un ambiente relajado. Se usa para actividades de celebración. Usted podrá sentarse a beber algo, conversar y escuchar música. 
             p.mb-0 Su escenografía:
             ul.lista-ul.mb-0.mt-4
@@ -1381,7 +1394,7 @@
               img(src='@/assets/curso/Tema1/img47.png', alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
-            h5 Tipo feria
+            h4 Tipo feria
             ul.lista-ul.mb-0.mt-4
               li
                 i.fas.fa-check.c2
@@ -1534,7 +1547,7 @@
       h2 1.8.	Espacios para la realización de eventos
     p El espacio en el que se lleva a cabo un evento juega un papel importante, pues es el plano en el que los asistentes del mismo viven la experiencia, que es el principal objetivo de este tipo de organizaciones. Conozca algunos de estos espacios: 
     .tarjeta.tarjeta--azul.p-4.mb-5.fon1    
-      SlyderA.mt-5.fon1(tipo="b")
+      SlyderA.mt-5.fon1.aq2(tipo="b")
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 Elección de un espacio
@@ -1626,7 +1639,7 @@
     .row
       .col-lg-6
         img(src='@/assets/curso/Tema1/img61.png', alt='Texto que describa la imagen')
-      .col-lg-6
+      .col-lg-6.mt-2
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Cumbre virtual")
             .col-md-12.mb-4.mb-md-0
@@ -1650,11 +1663,6 @@
           .row(titulo="Chats <i>online fireside</i> (“caseros”)")
             .col-md-12.mb-4.mb-md-0
               p Formato caracterizado por facilitar la cercanía entre asistentes y orador en sesiones privadas y que es considerado como un evento. También puede tener su origen como sesión complementaria en una cumbre o conferencia virtual. 
-
-          .row(titulo="Chats<i> online fireside (“caseros”)</i>")
-            .col-md-12.mb-4.mb-md-0
-              p Formato caracterizado por facilitar la cercanía entre asistentes y orador en sesiones privadas y que es considerado como un evento. También puede tener su origen como sesión complementaria en una cumbre o conferencia virtual. 
-
           .row(titulo="Ferias y exposiciones comerciales virtuales")
             .col-md-12.mb-4.mb-md-0
               p Formato de gran escala en el cual se exponen productos y servicios directamente, con el objetivo de sensibilizar a futuros clientes y fidelizar a los existentes. 
@@ -1691,14 +1699,14 @@
     .row
       .col-lg-6
         img(src='@/assets/curso/Tema1/img71.png', alt='Texto que describa la imagen')
-      .col-lg-6
+      .col-lg-6.mt-2
         .tarjeta.tarjeta--azul.p-4.mb-5.qaw
-          SlyderA(tipo="b")
+          SlyderA.pp(tipo="b")
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
                   .col-lg-5
-                    img(src='@/assets/curso/Tema1/z1.svg', alt='Texto que describa la imagen')
+                    img.baqw(src='@/assets/curso/Tema1/z1.svg', alt='Texto que describa la imagen')
 
                 p.mt-4 Plataforma intuitiva y fácil de usar. Transmite reuniones, conferencias y seminarios <i>web</i> con video, audio y mensajería instantánea. Dispone de versión premium, que posibilita el tener hasta 1.000 participantes y 10.000 espectadores, con herramientas interactivas.
             
@@ -1706,35 +1714,35 @@
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
                   .col-lg-3
-                    img(src='@/assets/curso/Tema1/z2.svg', alt='Texto que describa la imagen')
+                    img.baqw(src='@/assets/curso/Tema1/z2.svg', alt='Texto que describa la imagen')
 
                 p.mt-4 <i>App</i> de videoconferencias desarrollada por la compañía Google Inc, se accede desde buscadores <i>web</i> y dispositivos móviles; las empresas y organizaciones son sus principales usuarios, ya que fue ideada para dinamizar el entorno laboral. Cuenta con una interfaz sencilla, y para poder crear las reuniones, se debe tener activa una cuenta en Google.
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
                   .col-lg-3
-                    img(src='@/assets/curso/Tema1/z3.svg', alt='Texto que describa la imagen')
+                    img.baqw(src='@/assets/curso/Tema1/z3.svg', alt='Texto que describa la imagen')
 
                 p.mt-4 Es un espacio de trabajo diseñado para mejorar la comunicación y colaboración de los equipos de trabajo de las organizaciones, reforzando las funciones colaborativas de la plataforma en la nube de Microsoft. Cuenta con <i>chats</i> individuales y grupales, conversaciones de equipo, videoconferencias, notas, acceso a contenido compartido, Office Online, Planner, entre otras. 
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
                   .col-lg-8
-                    img(src='@/assets/curso/Tema1/z4.svg', alt='Texto que describa la imagen')
+                    img.baqw(src='@/assets/curso/Tema1/z4.svg', alt='Texto que describa la imagen')
 
                 p.mt-4 Permite tener hasta 6 expositores en vivo, compartir pantalla, y difundir el <i>streaming</i> por medio de Facebook, YouTube y LinkedIn para tener mayor alcance. Videoconferencias, notas, acceso a contenido compartido, Office Online, Planner, entre otras. 
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
                   .col-lg-4
-                    img(src='@/assets/curso/Tema1/z5.svg', alt='Texto que describa la imagen')
+                    img.baqw(src='@/assets/curso/Tema1/z5.svg', alt='Texto que describa la imagen')
 
                 p.mt-4 Se pueden hacer videoconferencias y congresos <i>online</i>. Cuenta con funciones para preguntas y respuestas.
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
                   .col-lg-6
-                    img(src='@/assets/curso/Tema1/z6.svg', alt='Texto que describa la imagen')
+                    img.baqw(src='@/assets/curso/Tema1/z6.svg', alt='Texto que describa la imagen')
 
                 p.mt-4 Puede crear videos en tiempo real, tanto para pequeños negocios como para grandes empresas. Puede usar esta herramienta para realizar demostraciones de productos, reuniones, seminarios, cursos <i>online</i>, capacitaciones o cualquier evento que necesite.
 
@@ -1750,7 +1758,7 @@
     .row
       .col-lg-6
         img(src='@/assets/curso/Tema1/img70.png', alt='Texto que describa la imagen')
-      .col-lg-6
+      .col-lg-6.mt-2
         .col-lg-12
           .cajon.color-acento-botones.p-4.mb-4
             p <strong>Desarrollar estrategias de mercadeo digital para la promoción de eventos no solo es importante en el antes, sino también en el durante y en el después de dichos eventos. Hoy en día, todo suceso pasa por Internet, que es un medio ideal para cualquier tipo de proceso; websites, plataformas digitales, apps han abierto un panorama inmenso al conseguir un mayor impacto y visibilidad para las organizaciones que comprenden que el consumidor moderno es autónomo, gestiona él mismo la información, es decir, es un cibernauta.</strong>
@@ -1817,34 +1825,34 @@
             figure
               img(src='@/assets/curso/Tema1/img86.png', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-botones.p-3(x="32%" y="75%" numero="+")
+          .tarjeta.color-acento-botones.p-3.bgcolor(x="32%" y="75%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 1. Objetivos claros:
-            p Se deben responder preguntas como: ¿qué se quiere obtener? ¿Cuál es el público objetivo? ¿Qué actividades realizarán los convocados durante y después del evento? Algunos ejemplos pueden ser: aumentar la interacción con la comunidad, ampliar la red de contactos, aumentar ventas, etc.
-          .tarjeta.color-acento-botones.p-3(x="27%" y="50%" numero="+")
+            p.mt-4 Se deben responder preguntas como: ¿qué se quiere obtener? ¿Cuál es el público objetivo? ¿Qué actividades realizarán los convocados durante y después del evento? Algunos ejemplos pueden ser: aumentar la interacción con la comunidad, ampliar la red de contactos, aumentar ventas, etc.
+          .tarjeta.color-acento-botones.p-3.bgcolor(x="27%" y="50%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 2. Tipos de eventos online y plataformas para los mismos: 
-            p Se debe definir el tipo de evento a realizar, bien sea conferencia, taller, exposición, etc., y luego proceder a escoger la plataforma. 
-          .tarjeta.color-acento-botones.p-3(x="32%" y="24%" numero="+")
+            p.mt-4 Se debe definir el tipo de evento a realizar, bien sea conferencia, taller, exposición, etc., y luego proceder a escoger la plataforma. 
+          .tarjeta.color-acento-botones.p-3.bgcolor(x="32%" y="24%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 3. Nombre impactante: 
-            p Para definir el nombre ideal para el evento, se deben tener claros los valores de marca y lo que se desea resaltar y comunicar. Este debe ser sencillo, concordante con la materia del evento y que genere recordación.
-          .tarjeta.color-acento-botones.p-3(x="42%" y="9%" numero="+")
+            p.mt-4 Para definir el nombre ideal para el evento, se deben tener claros los valores de marca y lo que se desea resaltar y comunicar. Este debe ser sencillo, concordante con la materia del evento y que genere recordación.
+          .tarjeta.color-acento-botones.p-3.bgcolor(x="42%" y="9%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 4. Estética: 
-            p La información a transmitir debe ser diáfana y puntual, así como el desarrollo de la parte visual y estética.
-          .tarjeta.color-acento-botones.p-3(x="67%" y="24%" numero="+")
+            p.mt-4 La información a transmitir debe ser diáfana y puntual, así como el desarrollo de la parte visual y estética.
+          .tarjeta.color-acento-botones.p-3.bgcolor(x="67%" y="24%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 5. Definir la estrategia de comunicación:
-            p Teniendo claro el tipo de público que se desea atraer y lo que se pretende que ese tipo de público haga (compre, comparta, suscriba, etc.), elija las estrategias de comunicación. Por ejemplo, el diseño de las campañas de expectativa, donde, días antes del evento, se difunden piezas publicitarias que incrementan el interés e ilusión por su realización; otra estrategia también puede ser la vista anteriormente: landing page, donde irá la información relevante del evento. 
-          .tarjeta.color-acento-botones.p-3(x="72%" y="52%" numero="+")
+            p.mt-4 Teniendo claro el tipo de público que se desea atraer y lo que se pretende que ese tipo de público haga (compre, comparta, suscriba, etc.), elija las estrategias de comunicación. Por ejemplo, el diseño de las campañas de expectativa, donde, días antes del evento, se difunden piezas publicitarias que incrementan el interés e ilusión por su realización; otra estrategia también puede ser la vista anteriormente: landing page, donde irá la información relevante del evento. 
+          .tarjeta.color-acento-botones.p-3.bgcolor(x="72%" y="52%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 6. Crear un registro cómodo y seguro
-            p El proceso de registro debe ser simple, solicitud de información básica del asistente y datos de contacto.
-          .tarjeta.color-acento-botones.p-3(x="67%" y="77%" numero="+")
+            p.mt-4 El proceso de registro debe ser simple, solicitud de información básica del asistente y datos de contacto.
+          .tarjeta.color-acento-botones.p-3.bgcolor(x="67%" y="77%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 7. Definir los recursos físicos y humanos
-            p Se debe asignar un presupuesto para los recursos materiales, tecnológicos y humanos. La idea también es definir los roles y las funciones de todo el personal dentro del evento.  
+            p.mt-4 Se debe asignar un presupuesto para los recursos materiales, tecnológicos y humanos. La idea también es definir los roles y las funciones de todo el personal dentro del evento.  
     separador
     #t_1_13.titulo-segundo.color-acento-contenido
       h2 1.13.	Costos en un evento
@@ -1862,13 +1870,15 @@
         .cajon.color-primario.p-4
           p.mb-0.text-center Una vez se conoce el objetivo del evento, se valoran las necesidades a suplir para su realización. Se tienen dos opciones de estructura de presupuestos:
           .row.justify-content-center.mt-4
-            .col-lg-3
+            .col-lg-3.fonb
               ul.lista-ul
                 li 
                   i.fas.fa-check.c2
                   | Presupuesto adaptado al evento (mayor libertad)       
             .col-lg-1
-            .col-lg-3
+              img(src='@/assets/curso/Tema1/flecha.svg', alt='Texto que describa la imagen')
+              
+            .col-lg-3.fonb
               ul.lista-ul
                 li 
                   i.fas.fa-check.c2
@@ -1879,7 +1889,7 @@
         .row.mt-5
           .col-lg-3.tte
             p.mb-0 <strong>Costos fijos: </strong>  
-        p Independientemente del éxito del evento, constituyen los costos fijos aquellos valores que hay que cancelar, esto es:
+        p.mt-3 Independientemente del éxito del evento, constituyen los costos fijos aquellos valores que hay que cancelar, esto es:
         ul.lista-ul
           li 
             i.fas.fa-check.c2
@@ -1928,7 +1938,7 @@
       .col-lg-8.bg1
         .row
           .col-lg-12.mt-4
-            h4.text-center Costos variables de un evento
+            h3.text-center Costos variables de un evento
         .row.justify-content-center.mt-2
           .col-lg-8.mb-4
             ul.lista-ul--color
@@ -1978,4 +1988,13 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.tarjeta-avatar > img
+  top: 22px!important
+.tabs-c.color-primario .tabs-c__tab--active
+  font-weight: bold!important
+.tarjeta.color-primario
+  background-color: #FCC52E
+.cajon.color-acento-botones
+  background-color: #D5EFFF
+</style>
