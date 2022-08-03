@@ -580,7 +580,7 @@
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Tabla 1
       span  Resumen de la tipología de los eventos
-    .tabla-a.color-secundario.mb-5 
+    .tabla-a.color-acento-contenido.mb-5 
       table
         thead
           tr
@@ -791,75 +791,80 @@
     p La planeación es la base del evento, esta fase consiste en formular planes que servirán de guía para el accionar del evento; esto implica establecer objetivos y acciones para alcanzar dichos objetivos. En el siguiente recurso, podrá encontrar todos los elementos que hacen parte de la fase de planeación:
     .row.mt-4
       .col-lg-3
-        img(src="@/assets/curso/Tema1/t1.svg")
+        .row.ppp
+          .col-lg-4
+            img(src="@/assets/curso/fondos/icono.svg")
+          .col-lg-8.mt-5
+            h3 Fase de planeación 
+
     p.mt-4 Las actividades que se ejecutan en esta fase son: 
-    .row.bg6  
-      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-acento-botones.p-4
+    .row.bg6
+      SlyderF.mb-5.mt-5(columnas="col-lg-6 col-xl-4")
+        .tarjeta.color-acento-botones.p-4.sombra.mt-3.mb-3
           .row.justify-content-center.mb-3
             .col-7
               img(src='@/assets/curso/Tema1/n1.svg' alt='AvatarTop')
 
           p.text-center Nombre del evento.
-        .tarjeta.color-acento-botones.p-4
+        .tarjeta.color-acento-botones.p-4.sombra.mt-3.mb-3
           .row.justify-content-center.mb-3
             .col-7
               img(src='@/assets/curso/Tema1/n2.svg' alt='AvatarTop')
 
           p.text-center Temática.
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
+        .tarjeta.color-acento-botones.p-4.sombra.mt-3.mb-3
+          .row.justify-content-center.mb-2
             .col-7
               img(src='@/assets/curso/Tema1/n3.svg' alt='AvatarTop')
 
-          p.text-center Definir el público objetivo y el tipo de expositores.
+          p.text-center.mb-0 Definir el público objetivo y el tipo de expositores.
 
-        .tarjeta.color-acento-botones.p-4
+        .tarjeta.color-acento-botones.p-4.sombra.mt-3.mb-3
           .row.justify-content-center.mb-3
             .col-7
               img(src='@/assets/curso/Tema1/n4.svg' alt='AvatarTop')
 
           p.text-center Seleccionar las fechas.
 
-        .tarjeta.color-acento-botones.p-4
+        .tarjeta.color-acento-botones.p-4.sombra.mt-3.mb-3
           .row.justify-content-center.mb-3
             .col-7
               img(src='@/assets/curso/Tema1/n5.svg' alt='AvatarTop')
 
           p.text-center Seleccionar el lugar.
 
-        .tarjeta.color-acento-botones.p-4
+        .tarjeta.color-acento-botones.p-4.sombra.mt-3.mb-3
           .row.justify-content-center.mb-3
             .col-7
               img(src='@/assets/curso/Tema1/n6.svg' alt='AvatarTop')
 
           p.text-center Describir las actividades.
 
-        .tarjeta.color-acento-botones.p-4
+        .tarjeta.color-acento-botones.p-4.sombra.mt-3.mb-3
           .row.justify-content-center.mb-3
             .col-7
               img(src='@/assets/curso/Tema1/n7.svg' alt='AvatarTop')
 
           p.text-center Definir el programa.
-        .tarjeta.color-acento-botones.p-4
+        .tarjeta.color-acento-botones.p-4.sombra.mt-3.mb-3
           .row.justify-content-center.mb-3
             .col-7
               img(src='@/assets/curso/Tema1/n8.svg' alt='AvatarTop')
 
           p.text-center Definir los recursos.
-        .tarjeta.color-acento-botones.p-4
+        .tarjeta.color-acento-botones.p-4.sombra.mt-3.mb-3
           .row.justify-content-center.mb-3
             .col-7
               img(src='@/assets/curso/Tema1/n9.svg' alt='AvatarTop')
 
           p.text-center Diseñar el plano del montaje.
-        .tarjeta.color-acento-botones.p-4
+        .tarjeta.color-acento-botones.p-4.sombra.mt-3.mb-3
           .row.justify-content-center.mb-3
             .col-7
               img(src='@/assets/curso/Tema1/n10.svg' alt='AvatarTop')
 
           p.text-center Realizar cotización.
-        .tarjeta.color-acento-botones.p-4
+        .tarjeta.color-acento-botones.p-4.sombra.mt-3.mb-3
           .row.justify-content-center.mb-3
             .col-7
               img(src='@/assets/curso/Tema1/n11.svg' alt='AvatarTop')
@@ -1021,7 +1026,31 @@
                   p Frecuentemente se le asigna un 10% de la suma total del presupuesto para cubrir los imprevistos.
                 .row.justify-content-center
                   .col-lg-6
-                    img(src='@/assets/curso/Tema1/img26.png', alt='Texto que describa la imagen')
+                    h4.text-center Cotización
+                    .tabla-a.color-primario.mb-5 
+                      table
+                        thead
+                          tr
+                            th.text-white Material 
+                            th.text-white Cantidad 
+                            th.text-white Valor unidad
+                            th.text-white Valor total
+                        tbody
+                          tr.tabla1
+                            td 
+                            td 
+                            td 
+                            td 
+                          tr.tabla2
+                            td 
+                            td 
+                            td 
+                            td 
+                          tr.tabla1
+                            td 
+                            td 
+                            td 
+                            td 
             .col-md-6.mt-4
               figure
                 img(src='@/assets/curso/Tema1/img27.png', alt='Texto que describa la imagen')
@@ -1051,9 +1080,13 @@
       .col-lg-8
         img(src='@/assets/curso/Tema1/img31.svg', alt='Texto que describa la imagen')
     p.mt-4 Conozca más de esta fase en el siguiente recurso:
-    .row
+    .row.mt-4
       .col-lg-3
-        img(src='@/assets/curso/Tema1/img32.svg', alt='Texto que describa la imagen')
+        .row.ppp
+          .col-lg-4
+            img(src="@/assets/curso/fondos/icono.svg")
+          .col-lg-8.mt-5.marl
+            h3 Fase de organización 
     .row
       .col-lg-4.mt-2
         img(src='@/assets/curso/Tema1/img33.png', alt='Texto que describa la imagen')
@@ -1062,11 +1095,11 @@
           .col-lg-2
             img.aa(src='@/assets/curso/Tema1/ico6.svg', alt='Texto que describa la imagen')
           .col-lg-9.mt-2
-            h4 Definición de comités de trabajo:
+            h4.mt-2 Definición de comités de trabajo:
             p los comités son conjuntos de personas encargadas de un asunto en especial del evento.
         .row.mb-5
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4
+            .tarjeta--boton.color-primario.p-4.sombra
               .row.justify-content-center.mb-3
                 .col-7
                   figure
@@ -1074,7 +1107,7 @@
               p.text-center.mb-4 Roles del equipo organizador
               .row.mb-3
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4
+            .tarjeta--boton.color-primario.p-4.sombra
               .row.justify-content-center.mb-3
                 .col-7
                   figure
@@ -1082,7 +1115,7 @@
               p.text-center Promoción / <i>Marketing</i> del Evento
 
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4
+            .tarjeta--boton.color-primario.p-4.sombra
               .row.justify-content-center.mb-3
                 .col-7
                   figure
@@ -1090,7 +1123,7 @@
               p.text-center.mb-4 Contratación de servicios
               .row.mb-3
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4
+            .tarjeta--boton.color-primario.p-4.sombra
               .row.justify-content-center.mb-3
                 .col-7
                   figure
@@ -1173,39 +1206,40 @@
     .row
       .col-lg-3
         p.tta.text-center <strong>Promoción / <i>Marketing</i> del Evento</strong>              
-    .row.justify-content-center.mt-5
-      .col-lg-8
-        img(src='@/assets/curso/Tema1/img35.svg', alt='Texto que describa la imagen')
-    .row.mt-5
-      .col-lg-3.tte
-        p.mb-0 <strong><i>Diseño y Elaboración de Invitaciones</i></strong>
-    .row
-      .col-lg-6.mt-4
-        p Tener en cuenta:
-        ul.lista-ul
-          li.mb-0
-            i.fas.fa-check.c2
-            p.mb-2 Colores
-          li.mb-0
-            i.fas.fa-check.c2
-            p.mb-2 Temática
-          li.mb-0
-            i.fas.fa-check.c2
-            p.mb-2 Forma  y tamaño: cuadrado, circular, alargada, grande, mediana, pequeña
-          li.mb-0
-            i.fas.fa-check.c2
-            p.mb-2 Información:  nombre del evento, breve descripción, fecha, lugar, hora. De ser necesario indicar el tipo de vestuario 
-      .col-lg-6
-        img(src='@/assets/curso/Tema1/img36.png', alt='Texto que describa la imagen')
-    .row.mt-5
-      .col-lg-3.tte
-        p.mb-0 <strong><i>Diseño de la plantilla de asistencia</i></strong>
-    .row.justify-content-center.mt-5
-      .col-lg-7
-        img(src='@/assets/curso/Tema1/img37.svg', alt='Texto que describa la imagen')
-    .row.mt-5
-      .col-lg-3
-        p.tta.text-center <strong>Contratación de servicios</strong>
+    .row.fon33  
+      .row.justify-content-center.mt-5
+        .col-lg-8
+          img(src='@/assets/curso/Tema1/img35.svg', alt='Texto que describa la imagen')
+      .row.mt-5
+        .col-lg-3
+          p.mb-0.tte <strong><i>Diseño y Elaboración de Invitaciones</i></strong>
+      .row
+        .col-lg-6.mt-4
+          p Tener en cuenta:
+          ul.lista-ul
+            li.mb-0
+              i.fas.fa-check.c2
+              p.mb-2 Colores
+            li.mb-0
+              i.fas.fa-check.c2
+              p.mb-2 Temática
+            li.mb-0
+              i.fas.fa-check.c2
+              p.mb-2 Forma  y tamaño: cuadrado, circular, alargada, grande, mediana, pequeña
+            li.mb-0
+              i.fas.fa-check.c2
+              p.mb-2 Información:  nombre del evento, breve descripción, fecha, lugar, hora. De ser necesario indicar el tipo de vestuario 
+        .col-lg-6
+          img(src='@/assets/curso/Tema1/img36.png', alt='Texto que describa la imagen')
+      .row.mt-5
+        .col-lg-3
+          p.mb-0.tte <strong><i>Diseño de la plantilla de asistencia</i></strong>
+      .row.justify-content-center.mt-5
+        .col-lg-7
+          img(src='@/assets/curso/Tema1/img37.svg', alt='Texto que describa la imagen')
+      .row.mt-5
+        .col-lg-3
+          p.tta.text-center <strong>Contratación de servicios</strong>
     .row.justify-content-center.bg7
       .col-lg-10.mb-5.mt-5
         img(src='@/assets/curso/Tema1/img38.svg', alt='Texto que describa la imagen')
@@ -1269,8 +1303,8 @@
     #t_1_6.titulo-segundo.color-acento-contenido
       h2 1.6.	Montajes de los eventos
     p Se reconoce como montaje del evento al proceso que se utiliza para diseñar los planos y secuencias de un <strong>evento</strong> o actividad, de forma que los asistentes perciban la integración armónica de todo lo que haga parte del mismo. Para entender mejor este tema, le invitamos a ver el siguiente recurso sobre los tipos de montajes de eventos: 
-    .tarjeta.tarjeta--azul.p-4.mb-5.fon2   
-      SlyderA.mt-5.fon2.aq3(tipo="b")
+    .tarjeta.tarjeta--azul.p-4.mb-5.fon22   
+      SlyderA.mt-5.fon22.aq3(tipo="b")
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Tipo escuela
@@ -1418,7 +1452,7 @@
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Tabla 2
       span  Recursos para la organización de eventos
-    .tabla-a.color-secundario.mb-5 
+    .tabla-a.color-acento-contenido.mb-5 
       table
         thead
           tr
@@ -1546,8 +1580,8 @@
     #t_1_8.titulo-segundo.color-acento-contenido
       h2 1.8.	Espacios para la realización de eventos
     p El espacio en el que se lleva a cabo un evento juega un papel importante, pues es el plano en el que los asistentes del mismo viven la experiencia, que es el principal objetivo de este tipo de organizaciones. Conozca algunos de estos espacios: 
-    .tarjeta.tarjeta--azul.p-4.mb-5.fon1    
-      SlyderA.mt-5.fon1.aq2(tipo="b")
+    .tarjeta.tarjeta--azul.p-4.mb-5.fon11   
+      SlyderA.mt-5.fon11.aq2(tipo="b")
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 Elección de un espacio
@@ -1700,7 +1734,7 @@
       .col-lg-6
         img(src='@/assets/curso/Tema1/img71.png', alt='Texto que describa la imagen')
       .col-lg-6.mt-2
-        .tarjeta.tarjeta--azul.p-4.mb-5.qaw
+        .tarjeta.tarjeta--azul.p-4.mb-5.qaw.sombra
           SlyderA.pp(tipo="b")
             .row
               .col-md-12.mb-4.mb-md-0
@@ -1760,13 +1794,17 @@
         img(src='@/assets/curso/Tema1/img70.png', alt='Texto que describa la imagen')
       .col-lg-6.mt-2
         .col-lg-12
-          .cajon.color-acento-botones.p-4.mb-4
+          .cajon.color-acento-botones.p-4.mb-4.sombra
             p <strong>Desarrollar estrategias de mercadeo digital para la promoción de eventos no solo es importante en el antes, sino también en el durante y en el después de dichos eventos. Hoy en día, todo suceso pasa por Internet, que es un medio ideal para cualquier tipo de proceso; websites, plataformas digitales, apps han abierto un panorama inmenso al conseguir un mayor impacto y visibilidad para las organizaciones que comprenden que el consumidor moderno es autónomo, gestiona él mismo la información, es decir, es un cibernauta.</strong>
 
         p Dicho esto, queda claro que los medios digitales representan una oportunidad para la formulación de estrategias de marca en las organizaciones. El mercadeo en este campo realiza métricas de <i>marketing</i> sincrónicas, interactuando con los consumidores y ajustando la estrategia a partir de los resultados. Esta flexibilidad y dinámica propia del <i>marketing</i> digital resulta, en términos económicos, más viable al comparar con los medios tradicionales de difusión, como radio, televisión o prensa. 
     .row.mt-4
-      .col-lg-4
-        img(src="@/assets/curso/Tema1/i4.svg")
+      .col-lg-6
+        .row.ppp2
+          .col-lg-3
+            img(src="@/assets/curso/fondos/icono2.svg")
+          .col-lg-8.mt-5.marl
+            h3.mt-2 Herramientas de marketing digital.
     p.mt-5 El <i>marketing</i> digital se refiere al conjunto de estrategias que se emplean para promocionar, en este caso, los eventos, ya sean presenciales o a través de alguna plataforma digital; a diferencia del <i>marketing</i> tradicional, este se hace a través de canales y métodos que permiten el análisis de los resultados en tiempo real, tal como lo podrá observar en el siguiente recurso, en el que encontrará detalles de la manera como los eventos son socializados a través de las redes sociales:
     TabsC.color-primario
       .py-3.py-md-4(titulo="<i>Landing page</i>")
@@ -1815,8 +1853,12 @@
             figure
               img(src='@/assets/curso/Tema1/img85.png', alt='Texto que describa la imagen')
     .row.mt-4
-      .col-lg-8
-        img(src="@/assets/curso/Tema1/i5.svg")
+      .col-lg-10
+        .row.ppp3
+          .col-lg-2
+            img(src="@/assets/curso/fondos/icono2.svg")
+          .col-lg-8.mt-5.marl
+            h3.mt-2 Pasos que conducen a la formulación de una adecuada estrategia de marketing digital en eventos.
     p.mt-4 En el <i>marketing</i> digital, hay muchas opciones de plataformas, de tipos de contenidos, etc.; sin embargo, al ser un elemento casi intangible, la incertidumbre de aplicarla y de saber si se está empleando de manera apropiada es la constante en los organizadores de eventos. Hay quienes le apuntan al <i>inbound marketing</i> y, en él, al <i>marketing</i> de contenidos, pero, sin duda, se hace necesario establecer un procedimiento organizado y pensado en el consumidor, que permita el éxito de la estrategia. Sabiendo esto, le invitamos a ver el siguiente recurso, donde se presentan los pasos que conducen a la formulación de una adecuada estrategia de <i>marketing</i> digital en eventos:
     .row.justify-content-center
       .col-lg-10
@@ -1825,31 +1867,31 @@
             figure
               img(src='@/assets/curso/Tema1/img86.png', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-botones.p-3.bgcolor(x="32%" y="75%" numero="+")
+          .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="32%" y="75%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 1. Objetivos claros:
             p.mt-4 Se deben responder preguntas como: ¿qué se quiere obtener? ¿Cuál es el público objetivo? ¿Qué actividades realizarán los convocados durante y después del evento? Algunos ejemplos pueden ser: aumentar la interacción con la comunidad, ampliar la red de contactos, aumentar ventas, etc.
-          .tarjeta.color-acento-botones.p-3.bgcolor(x="27%" y="50%" numero="+")
+          .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="27%" y="50%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 2. Tipos de eventos online y plataformas para los mismos: 
             p.mt-4 Se debe definir el tipo de evento a realizar, bien sea conferencia, taller, exposición, etc., y luego proceder a escoger la plataforma. 
-          .tarjeta.color-acento-botones.p-3.bgcolor(x="32%" y="24%" numero="+")
+          .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="32%" y="24%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 3. Nombre impactante: 
             p.mt-4 Para definir el nombre ideal para el evento, se deben tener claros los valores de marca y lo que se desea resaltar y comunicar. Este debe ser sencillo, concordante con la materia del evento y que genere recordación.
-          .tarjeta.color-acento-botones.p-3.bgcolor(x="42%" y="9%" numero="+")
+          .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="42%" y="9%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 4. Estética: 
             p.mt-4 La información a transmitir debe ser diáfana y puntual, así como el desarrollo de la parte visual y estética.
-          .tarjeta.color-acento-botones.p-3.bgcolor(x="67%" y="24%" numero="+")
+          .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="67%" y="24%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 5. Definir la estrategia de comunicación:
             p.mt-4 Teniendo claro el tipo de público que se desea atraer y lo que se pretende que ese tipo de público haga (compre, comparta, suscriba, etc.), elija las estrategias de comunicación. Por ejemplo, el diseño de las campañas de expectativa, donde, días antes del evento, se difunden piezas publicitarias que incrementan el interés e ilusión por su realización; otra estrategia también puede ser la vista anteriormente: landing page, donde irá la información relevante del evento. 
-          .tarjeta.color-acento-botones.p-3.bgcolor(x="72%" y="52%" numero="+")
+          .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="72%" y="52%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 6. Crear un registro cómodo y seguro
             p.mt-4 El proceso de registro debe ser simple, solicitud de información básica del asistente y datos de contacto.
-          .tarjeta.color-acento-botones.p-3.bgcolor(x="67%" y="77%" numero="+")
+          .tarjeta.color-acento-botones.p-3.bgcolor.sombra(x="67%" y="77%" numero="+")
             .titulo-sexto.color-primario.mb-0
               h5 7. Definir los recursos físicos y humanos
             p.mt-4 Se debe asignar un presupuesto para los recursos materiales, tecnológicos y humanos. La idea también es definir los roles y las funciones de todo el personal dentro del evento.  
@@ -1870,15 +1912,15 @@
         .cajon.color-primario.p-4
           p.mb-0.text-center Una vez se conoce el objetivo del evento, se valoran las necesidades a suplir para su realización. Se tienen dos opciones de estructura de presupuestos:
           .row.justify-content-center.mt-4
-            .col-lg-3.fonb
+            .col-lg-3.fonb.sombra.p-2.mt-2
               ul.lista-ul
                 li 
                   i.fas.fa-check.c2
                   | Presupuesto adaptado al evento (mayor libertad)       
-            .col-lg-1
-              img(src='@/assets/curso/Tema1/flecha.svg', alt='Texto que describa la imagen')
+            .col-lg-1.mt-2
+              img.imgp(src='@/assets/curso/Tema1/flecha.svg', alt='Texto que describa la imagen')
               
-            .col-lg-3.fonb
+            .col-lg-3.fonb.sombra.p-2.mt-2
               ul.lista-ul
                 li 
                   i.fas.fa-check.c2
@@ -1887,8 +1929,8 @@
     .row
       .col-lg-6
         .row.mt-5
-          .col-lg-3.tte
-            p.mb-0 <strong>Costos fijos: </strong>  
+          .col-lg-3
+            p.mb-0.tte <strong>Costos fijos: </strong>  
         p.mt-3 Independientemente del éxito del evento, constituyen los costos fijos aquellos valores que hay que cancelar, esto es:
         ul.lista-ul
           li 
@@ -1931,15 +1973,15 @@
       .col-lg-6
         img(src='@/assets/curso/Tema1/img90.png', alt='Texto que describa la imagen')
     .row.mt-5
-      .col-lg-2.tte
-        p.mb-0 <strong>Costos variables:</strong>  
+      .col-lg-2
+        p.mb-0.tte <strong>Costos variables:</strong>  
     p.mt-4 Son aquellos que varían en relación con la cantidad de personas que deciden asistir a un evento; se tiene:
     .row.justify-content-center.mt-4
       .col-lg-8.bg1
         .row
           .col-lg-12.mt-4
-            h3.text-center Costos variables de un evento
-        .row.justify-content-center.mt-2
+            h3.text-center.mb-0 Costos variables de un evento
+        .row.justify-content-center.mt-1
           .col-lg-8.mb-4
             ul.lista-ul--color
               li.mb-0
@@ -1963,7 +2005,7 @@
               li.mb-0 
                 i.lista-ul__vineta
                 | Personal de seguridad y servicios generales.
-    p Adicional a lo anterior, se debe tener presente un rubro de imprevistos: tomar medidas contables asignando recursos para cubrir un suceso inesperado. 
+    p.mt-2 Adicional a lo anterior, se debe tener presente un rubro de imprevistos: tomar medidas contables asignando recursos para cubrir un suceso inesperado. 
 
 
 
@@ -1997,4 +2039,10 @@ export default {
   background-color: #FCC52E
 .cajon.color-acento-botones
   background-color: #D5EFFF
+.tabla-a.color-primario thead
+  background-color: #FA732B!important
+.tabla-a.color-primario thead
+  border-color: #FA732B
+.tarjeta--boton
+  background-color: #FFFFFF
 </style>

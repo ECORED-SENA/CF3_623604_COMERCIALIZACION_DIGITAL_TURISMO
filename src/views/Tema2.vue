@@ -82,7 +82,7 @@
       .col-lg-6
         img(src='@/assets/curso/tema2/img8.svg', alt='Texto que describa la imagen')
       .col-lg-6.mt-2
-        .tarjeta.tarjeta--azul.p-4.mb-5.qaw
+        .tarjeta.tarjeta--azul.p-4.mb-5.qaw.sombra
           SlyderA.pp(tipo="b")
             .row
               .col-md-12.mb-4.mb-md-0
