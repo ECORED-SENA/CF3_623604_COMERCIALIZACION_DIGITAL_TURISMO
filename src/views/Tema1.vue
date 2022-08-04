@@ -768,7 +768,7 @@
           .row.justify-content-around.align-items-center
             .col-5.col-sm-2.col-lg-1
               img.tam1(src="@/assets/curso/Tema1/ico5.svg")
-            .col.mt-4
+            .col-12.col-md.mt-4
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p <strong>Estimado aprendiz, de igual manera, le invitamos a ver el siguiente enlace, en el que podrá conocer los eventos nacionales más reconocidos:</strong> Aviatur, cronograma de eventos nacionales.
@@ -1025,7 +1025,7 @@
                   i.fas.fa-check.c2
                   p Frecuentemente se le asigna un 10% de la suma total del presupuesto para cubrir los imprevistos.
                 .row.justify-content-center
-                  .col-lg-6
+                  .col-lg-8
                     h4.text-center Cotización
                     .tabla-a.color-primario.mb-5 
                       table
@@ -1914,7 +1914,7 @@
           .row.justify-content-center.mt-4
             .col-lg-3.fonb.sombra.p-2.mt-2
               ul.lista-ul
-                li 
+                li.p-0.mb-0
                   i.fas.fa-check.c2
                   | Presupuesto adaptado al evento (mayor libertad)       
             .col-lg-1.mt-2
@@ -1922,7 +1922,7 @@
               
             .col-lg-3.fonb.sombra.p-2.mt-2
               ul.lista-ul
-                li 
+                li.p-0.mb-0 
                   i.fas.fa-check.c2
                   | Evento adaptado al presupuesto (limitados)       
     p.mt-5 Cuando este punto está claro, se deben definir los costos asociados a la planificación del evento. Según Cordero (2016), existen dos tipos de costos que se deben estipular en el momento de crear un evento: los fijos y los variables, a saber:
@@ -1985,25 +1985,25 @@
           .col-lg-8.mb-4
             ul.lista-ul--color
               li.mb-0
-                i.lista-ul__vineta
+                i.fas.fa-circle
                 | Material de acreditación: credenciales, folletos, souvenirs, diplomas, etc.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle
                 | Servicio de catering, coffee break, almuerzos, cenas.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle
                 | Personal temporal.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle
                 | Estacionamientos.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle
                 | Computadores y mobiliario en general.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle
                 | Gastos bancarios.
               li.mb-0 
-                i.lista-ul__vineta
+                i.fas.fa-circle
                 | Personal de seguridad y servicios generales.
     p.mt-2 Adicional a lo anterior, se debe tener presente un rubro de imprevistos: tomar medidas contables asignando recursos para cubrir un suceso inesperado. 
 
@@ -2045,4 +2045,7 @@ export default {
   border-color: #FA732B
 .tarjeta--boton
   background-color: #FFFFFF
+.lista-ul--color li > i:first-of-type
+  font-size: 10px
+  top: 7px
 </style>
