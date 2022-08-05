@@ -83,7 +83,7 @@
         img(src='@/assets/curso/tema2/img8.svg', alt='Texto que describa la imagen')
       .col-lg-6.mt-2
         .tarjeta.tarjeta--azul.p-4.mb-5.qaw.sombra
-          SlyderA.pp(tipo="b")
+          SlyderA.pp.flecha-blanca(tipo="b")
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
@@ -296,4 +296,11 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.flecha-blanca .slyder-a__btn--sigt, .flecha-blanca .slyder-a__btn--atrs
+  background-image: url("../assets/curso/fondos/arrow.svg") !important
+.flecha-blanca .slyder-a__tipo-b .slyder-a__btn--sigt
+    transform: rotate(0deg)!important
+.flecha-blanca .slyder-a__tipo-b .slyder-a__btn--atrs
+    transform: rotate(180deg)!important
+</style>

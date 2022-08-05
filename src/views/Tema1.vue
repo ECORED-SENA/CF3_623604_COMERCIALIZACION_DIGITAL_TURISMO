@@ -48,7 +48,7 @@
           img.marq(src='@/assets/curso/Tema1/ico1.svg' alt='AvatarTop')
           .tarjeta
             .p-5
-              p.text-center Es el que se realiza cuando el viajero se desplaza con objetivos comerciales, para consolidar vínculos económicos, establecer contactos entre empresas y entablar relaciones entre empresas y posibles socios de negocios.
+              p.text-center.marn Es el que se realiza cuando el viajero se desplaza con objetivos comerciales, para consolidar vínculos económicos, establecer contactos entre empresas y entablar relaciones entre empresas y posibles socios de negocios.
             .row.justify-content-center.mtq.mt-3
               .col-lg-2
                 img.cel(src='@/assets/curso/Tema1/n1.png' alt='AvatarTop')
@@ -790,13 +790,13 @@
     p En la primera fase, que se conoce como pre-evento, se desarrollan las acciones que ayudan a posicionar una imagen única del evento en la mente y el corazón del público objetivo, por ello, es importante crear tácticas consistentes, que respalden la estrategia de comunicación de este. Esta primera fase tiene dos fases, que son la planeación y la organización del evento.
     p La planeación es la base del evento, esta fase consiste en formular planes que servirán de guía para el accionar del evento; esto implica establecer objetivos y acciones para alcanzar dichos objetivos. En el siguiente recurso, podrá encontrar todos los elementos que hacen parte de la fase de planeación:
     .row.mt-4
-      .col-lg-3
-        .row.ppp
-          .col-lg-4
+      .col-lg-6
+        .row.ppp.align-items-end
+          .col-lg-2.img-ico
             img(src="@/assets/curso/fondos/icono.svg")
-          .col-lg-8.mt-5
-            h3 Fase de planeación 
-
+          .col-lg-8
+            h3.mt-2.mb-1 Fase de planeación 
+    
     p.mt-4 Las actividades que se ejecutan en esta fase son: 
     .row.bg6
       SlyderF.mb-5.mt-5(columnas="col-lg-6 col-xl-4")
@@ -871,7 +871,7 @@
 
           p.text-center Determinar fuentes de financiación.
       .tarjeta.tarjeta--azul.p-4.mb-5.fon3 
-        SlyderA.mt-5.fon3.aq2(tipo="b")
+        SlyderA.mt-5.aq2.largos(tipo="b")
           .row.justify-content-center
             .col-md-5.mb-4.mb-md-0
               h4 Temática, nombre y actividades.
@@ -1028,7 +1028,7 @@
                   .col-lg-8
                     h4.text-center Cotización
                     .tabla-a.color-primario.mb-5 
-                      table
+                      table.tema1-5
                         thead
                           tr
                             th.text-white Material 
@@ -1081,128 +1081,130 @@
         img(src='@/assets/curso/Tema1/img31.svg', alt='Texto que describa la imagen')
     p.mt-4 Conozca más de esta fase en el siguiente recurso:
     .row.mt-4
-      .col-lg-3
-        .row.ppp
-          .col-lg-4
+      .col-lg-6
+        .row.ppp.align-items-end
+          .col-lg-2.col-4.img.ico
             img(src="@/assets/curso/fondos/icono.svg")
-          .col-lg-8.mt-5.marl
-            h3 Fase de organización 
-    .row
-      .col-lg-4.mt-2
-        img(src='@/assets/curso/Tema1/img33.png', alt='Texto que describa la imagen')
-      .col-lg-8
-        .row.mt-4
-          .col-lg-2
-            img.aa(src='@/assets/curso/Tema1/ico6.svg', alt='Texto que describa la imagen')
-          .col-lg-9.mt-2
-            h4.mt-2 Definición de comités de trabajo:
-            p los comités son conjuntos de personas encargadas de un asunto en especial del evento.
-        .row.mb-5
-          .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4.sombra
-              .row.justify-content-center.mb-3
-                .col-7
-                  figure
-                    img.baqw(src='@/assets/curso/Tema1/ico7.svg', alt='Texto que describa la imagen')
-              p.text-center.mb-4 Roles del equipo organizador
-              .row.mb-3
-          .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4.sombra
-              .row.justify-content-center.mb-3
-                .col-7
-                  figure
-                    img.baqw(src='@/assets/curso/Tema1/ico8.svg', alt='Texto que describa la imagen')
-              p.text-center Promoción / <i>Marketing</i> del Evento
+          .col-lg-8
+            h3.mt-2.mb-1 Fase de organización 
+    
+    .row.fon35  
+      .row
+        .col-lg-4.mt-2
+          img(src='@/assets/curso/Tema1/img33.png', alt='Texto que describa la imagen')
+        .col-lg-8
+          .row.mt-4
+            .col-lg-2
+              img.aa(src='@/assets/curso/Tema1/ico6.svg', alt='Texto que describa la imagen')
+            .col-lg-9.mt-2
+              h4.mt-2 Definición de comités de trabajo:
+              p los comités son conjuntos de personas encargadas de un asunto en especial del evento.
+          .row.mb-5
+            .col-sm-6.col-lg-3.mb-4.mb-lg-0
+              .tarjeta--boton.color-primario.p-4.sombra
+                .row.justify-content-center.mb-3
+                  .col-7
+                    figure
+                      img.baqw(src='@/assets/curso/Tema1/ico7.svg', alt='Texto que describa la imagen')
+                p.text-center.mb-4 Roles del equipo organizador
+                .row.mb-3
+            .col-sm-6.col-lg-3.mb-4.mb-lg-0
+              .tarjeta--boton.color-primario.p-4.sombra
+                .row.justify-content-center.mb-3
+                  .col-7
+                    figure
+                      img.baqw(src='@/assets/curso/Tema1/ico8.svg', alt='Texto que describa la imagen')
+                p.text-center Promoción / <i>Marketing</i> del Evento
 
-          .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4.sombra
-              .row.justify-content-center.mb-3
-                .col-7
-                  figure
-                    img.baqw(src='@/assets/curso/Tema1/ico9.svg', alt='Texto que describa la imagen')
-              p.text-center.mb-4 Contratación de servicios
-              .row.mb-3
-          .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4.sombra
-              .row.justify-content-center.mb-3
-                .col-7
-                  figure
-                    img.baqw(src='@/assets/curso/Tema1/ico10.svg', alt='Texto que describa la imagen')
-              p.text-center Acomodación según numero de asistentes
-    .row
-      .col-lg-3
-        p.tta.text-center <strong>Roles del equipo organizador</strong>
-    .row
-      .col-lg-6
-        .row.mb-5
-          .col-md-12.mb-5.mb-md-0
-            LineaTiempoD.color-acento-botones
-              p(numero="1" titulo="Organizador")               
-                ul.lista-ul
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Escoger temas a tratar y las actividades a realizar.
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Seleccionar a los conferencistas y/o ponentes.
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Establecer los mecanismos para la preselección y hacer la selección final de los trabajadores del evento.
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Organizar ponencias y trabajos días antes al evento.
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Fijar fechas de reuniones periódicas con el fin de revisar las actividades ejecutadas y programar acciones pendientes.
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Definir beneficios económicos para ponentes e invitados (tiquetes aéreos, tours por la ciudad, alojamiento)
-              p(numero="2" titulo="Logística") Reservación del espacio:
-                ul.lista-ul
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Montaje de los salones: ellos mismos o definir con que empresa se hará este servicio.
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Alquiler de equipos de sonido y audiovisuales.
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Reproducción de diapositivas, videos, sonido durante el evento.
-              p(numero="3" titulo="Finanzas") Elaborar el presupuesto:
-                ul.lista-ul
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Buscar recursos económicos necesarios.
+            .col-sm-6.col-lg-3.mb-4.mb-lg-0
+              .tarjeta--boton.color-primario.p-4.sombra
+                .row.justify-content-center.mb-3
+                  .col-7
+                    figure
+                      img.baqw(src='@/assets/curso/Tema1/ico9.svg', alt='Texto que describa la imagen')
+                p.text-center.mb-4 Contratación de servicios
+                .row.mb-3
+            .col-sm-6.col-lg-3.mb-4.mb-lg-0
+              .tarjeta--boton.color-primario.p-4.sombra
+                .row.justify-content-center.mb-3
+                  .col-7
+                    figure
+                      img.baqw(src='@/assets/curso/Tema1/ico10.svg', alt='Texto que describa la imagen')
+                p.text-center Acomodación según numero de asistentes
+      .row
+        .col-lg-3
+          p.tta.text-center <strong>Roles del equipo organizador</strong>
+      .row
+        .col-lg-6
+          .row.mb-5
+            .col-md-12.mb-5.mb-md-0
+              LineaTiempoD.color-acento-botones
+                p(numero="1" titulo="Organizador")               
+                  ul.lista-ul
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Escoger temas a tratar y las actividades a realizar.
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Seleccionar a los conferencistas y/o ponentes.
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Establecer los mecanismos para la preselección y hacer la selección final de los trabajadores del evento.
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Organizar ponencias y trabajos días antes al evento.
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Fijar fechas de reuniones periódicas con el fin de revisar las actividades ejecutadas y programar acciones pendientes.
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Definir beneficios económicos para ponentes e invitados (tiquetes aéreos, tours por la ciudad, alojamiento)
+                p(numero="2" titulo="Logística") Reservación del espacio:
+                  ul.lista-ul
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Montaje de los salones: ellos mismos o definir con que empresa se hará este servicio.
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Alquiler de equipos de sonido y audiovisuales.
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Reproducción de diapositivas, videos, sonido durante el evento.
+                p(numero="3" titulo="Finanzas") Elaborar el presupuesto:
+                  ul.lista-ul
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Buscar recursos económicos necesarios.
 
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Buscar recursos económicos necesarios.
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Abrir cuentas bancarias. 
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Mantener reuniones periódicas con el comité organizador.
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Establecer las prioridades de gastos.
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Efectuar los pagos.
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Llevar el balance detallado de los gastos efectuados. 
-              p(numero="4" titulo="Comunicación") Definir y llevar a cabo el plan de medios o plan de <i>marketing</i> del evento según el presupuesto asignado.
-              p(numero="5" titulo="Seguridad") 
-                ul.lista-ul
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 En caso de que los ponentes o invitados sean muy importantes (presidentes, políticos, famosos cantantes, actrices…
-                  li
-                    i.fas.fa-check.c2
-                    p.mb-0 Coordina todas las actividades de seguridad: contacto con policía, transporte de ponentes o invitados, seguridad privada
-      .col-lg-6
-        img(src='@/assets/curso/Tema1/img34.png', alt='Texto que describa la imagen')
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Buscar recursos económicos necesarios.
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Abrir cuentas bancarias. 
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Mantener reuniones periódicas con el comité organizador.
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Establecer las prioridades de gastos.
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Efectuar los pagos.
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Llevar el balance detallado de los gastos efectuados. 
+                p(numero="4" titulo="Comunicación") Definir y llevar a cabo el plan de medios o plan de <i>marketing</i> del evento según el presupuesto asignado.
+                p(numero="5" titulo="Seguridad") 
+                  ul.lista-ul
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 En caso de que los ponentes o invitados sean muy importantes (presidentes, políticos, famosos cantantes, actrices…
+                    li
+                      i.fas.fa-check.c2
+                      p.mb-0 Coordina todas las actividades de seguridad: contacto con policía, transporte de ponentes o invitados, seguridad privada
+        .col-lg-6
+          img(src='@/assets/curso/Tema1/img34.png', alt='Texto que describa la imagen')
     .row
       .col-lg-3
         p.tta.text-center <strong>Promoción / <i>Marketing</i> del Evento</strong>              
@@ -1304,7 +1306,7 @@
       h2 1.6.	Montajes de los eventos
     p Se reconoce como montaje del evento al proceso que se utiliza para diseñar los planos y secuencias de un <strong>evento</strong> o actividad, de forma que los asistentes perciban la integración armónica de todo lo que haga parte del mismo. Para entender mejor este tema, le invitamos a ver el siguiente recurso sobre los tipos de montajes de eventos: 
     .tarjeta.tarjeta--azul.p-4.mb-5.fon22   
-      SlyderA.mt-5.fon22.aq3(tipo="b")
+      SlyderA.mt-5.aq3(tipo="b")
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Tipo escuela
@@ -1581,7 +1583,7 @@
       h2 1.8.	Espacios para la realización de eventos
     p El espacio en el que se lleva a cabo un evento juega un papel importante, pues es el plano en el que los asistentes del mismo viven la experiencia, que es el principal objetivo de este tipo de organizaciones. Conozca algunos de estos espacios: 
     .tarjeta.tarjeta--azul.p-4.mb-5.fon11   
-      SlyderA.mt-5.fon11.aq2(tipo="b")
+      SlyderA.mt-5.aq2(tipo="b")
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 Elección de un espacio
@@ -1735,7 +1737,7 @@
         img(src='@/assets/curso/Tema1/img71.png', alt='Texto que describa la imagen')
       .col-lg-6.mt-2
         .tarjeta.tarjeta--azul.p-4.mb-5.qaw.sombra
-          SlyderA.pp(tipo="b")
+          SlyderA.pp.flecha-blanca(tipo="b")
             .row
               .col-md-12.mb-4.mb-md-0
                 .row.justify-content-center
@@ -1800,11 +1802,12 @@
         p Dicho esto, queda claro que los medios digitales representan una oportunidad para la formulación de estrategias de marca en las organizaciones. El mercadeo en este campo realiza métricas de <i>marketing</i> sincrónicas, interactuando con los consumidores y ajustando la estrategia a partir de los resultados. Esta flexibilidad y dinámica propia del <i>marketing</i> digital resulta, en términos económicos, más viable al comparar con los medios tradicionales de difusión, como radio, televisión o prensa. 
     .row.mt-4
       .col-lg-6
-        .row.ppp2
-          .col-lg-3
+        .row.ppp2.align-items-end
+          .col-lg-2.col-4.img-ico
             img(src="@/assets/curso/fondos/icono2.svg")
-          .col-lg-8.mt-5.marl
-            h3.mt-2 Herramientas de marketing digital.
+          .col-lg-8
+            h3.mt-2.mb-1 Herramientas de marketing digital.
+    
     p.mt-5 El <i>marketing</i> digital se refiere al conjunto de estrategias que se emplean para promocionar, en este caso, los eventos, ya sean presenciales o a través de alguna plataforma digital; a diferencia del <i>marketing</i> tradicional, este se hace a través de canales y métodos que permiten el análisis de los resultados en tiempo real, tal como lo podrá observar en el siguiente recurso, en el que encontrará detalles de la manera como los eventos son socializados a través de las redes sociales:
     TabsC.color-primario
       .py-3.py-md-4(titulo="<i>Landing page</i>")
@@ -1852,13 +1855,14 @@
           .col-md-7
             figure
               img(src='@/assets/curso/Tema1/img85.png', alt='Texto que describa la imagen')
-    .row.mt-4
-      .col-lg-10
-        .row.ppp3
-          .col-lg-2
-            img(src="@/assets/curso/fondos/icono2.svg")
-          .col-lg-8.mt-5.marl
-            h3.mt-2 Pasos que conducen a la formulación de una adecuada estrategia de marketing digital en eventos.
+
+    .row.ppp3.align-items-end.mt-4
+      .col-lg-2.img-ico
+        img(src="@/assets/curso/fondos/icono2.svg")
+      .col-lg-9
+        h3.mt-2.mb-1 Pasos que conducen a la formulación de una adecuada estrategia de marketing digital en eventos.
+        
+    
     p.mt-4 En el <i>marketing</i> digital, hay muchas opciones de plataformas, de tipos de contenidos, etc.; sin embargo, al ser un elemento casi intangible, la incertidumbre de aplicarla y de saber si se está empleando de manera apropiada es la constante en los organizadores de eventos. Hay quienes le apuntan al <i>inbound marketing</i> y, en él, al <i>marketing</i> de contenidos, pero, sin duda, se hace necesario establecer un procedimiento organizado y pensado en el consumidor, que permita el éxito de la estrategia. Sabiendo esto, le invitamos a ver el siguiente recurso, donde se presentan los pasos que conducen a la formulación de una adecuada estrategia de <i>marketing</i> digital en eventos:
     .row.justify-content-center
       .col-lg-10
@@ -1913,7 +1917,7 @@
           p.mb-0.text-center Una vez se conoce el objetivo del evento, se valoran las necesidades a suplir para su realización. Se tienen dos opciones de estructura de presupuestos:
           .row.justify-content-center.mt-4
             .col-lg-3.fonb.sombra.p-2.mt-2
-              ul.lista-ul
+              ul.lista-ul.mb-0
                 li.p-0.mb-0
                   i.fas.fa-check.c2
                   | Presupuesto adaptado al evento (mayor libertad)       
@@ -1921,7 +1925,7 @@
               img.imgp(src='@/assets/curso/Tema1/flecha.svg', alt='Texto que describa la imagen')
               
             .col-lg-3.fonb.sombra.p-2.mt-2
-              ul.lista-ul
+              ul.lista-ul.mb-0
                 li.p-0.mb-0 
                   i.fas.fa-check.c2
                   | Evento adaptado al presupuesto (limitados)       
@@ -2048,4 +2052,10 @@ export default {
 .lista-ul--color li > i:first-of-type
   font-size: 10px
   top: 7px
+.flecha-blanca .slyder-a__btn--sigt, .flecha-blanca .slyder-a__btn--atrs
+  background-image: url("../assets/curso/fondos/arrow.svg") !important
+.flecha-blanca .slyder-a__tipo-b .slyder-a__btn--sigt
+    transform: rotate(0deg)!important
+.flecha-blanca .slyder-a__tipo-b .slyder-a__btn--atrs
+    transform: rotate(180deg)!important
 </style>
