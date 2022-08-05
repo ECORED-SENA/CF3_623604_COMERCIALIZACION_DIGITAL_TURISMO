@@ -1823,8 +1823,16 @@
           .col-md-5.mb-4.mb-md-0
             p Las redes sociales se han convertido  desde hace varios años en  la vía más rápida y sencilla para la difusión de todo tipo de información; cada una de ellas impulsa de forma diferenciada, bien sea a través de publicidad, lives, videos o mensajes directos.  
           .col-md-7
-            figure
-              img(src='@/assets/curso/Tema1/img81.png', alt='Texto que describa la imagen')
+            .row.colorq.p-3
+              .col-lg-3
+                img(src='@/assets/curso/fondos/1.png', alt='Texto que describa la imagen')
+              .col-lg-3
+                img(src='@/assets/curso/fondos/2.png', alt='Texto que describa la imagen')
+              .col-lg-3
+                img(src='@/assets/curso/fondos/3.png', alt='Texto que describa la imagen')
+              .col-lg-3
+                img(src='@/assets/curso/fondos/4.png', alt='Texto que describa la imagen')
+
       .py-3.py-md-4(titulo="<i>Email marketing</i>")
         .row
           .col-md-5.mb-4.mb-md-0
