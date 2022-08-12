@@ -233,7 +233,7 @@
       .tarjeta.color-acento-botones.p-4(titulo="Satisfacción con el evento")
         .row.justify-content-center
           .col-lg-11
-            h5 Promoción e impacto en redes sociales
+            h5 Satisfacción con el evento
             p Establecer si los objetivos planeados se concretaron de manera adecuada y medir la satisfacción del usuario de manera ágil y directa se puede lograr a través del correo electrónico. En él, se envía un cuestionario, estructurando preguntas pertinentes, el cual puede ser diseñado a través de diversas herramientas <i>web</i> como Google forms, Typeform, entre otras.
 
             p Se deben evaluar temas como: calidad de los ponentes, adecuación de las salas, horarios, disposición del personal del evento, instalaciones, tecnología, etc. Se puede hacer uso de una <i>app</i> específicamente para el evento, que pondere la calidad de la información y calidad de expositores, incrementando el índice de respuestas. Una sugerencia puede ser Meetmaps, que es un completo <i>software</i> que le permite al organizador de eventos comunicar, gamificar y seducir a los asistentes a través de una gran experiencia, antes, durante y después. 

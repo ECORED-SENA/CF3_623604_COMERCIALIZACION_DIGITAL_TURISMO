@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Organización de eventos',
     descripcionCurso:
-      'Motivaciones, necesidades o intereses varían al emprender un viaje; uno de ellos son los eventos. Quienes viajan a eventos pagan por temáticas y contenidos, pero también desean experiencias adicionales para su tiempo libre, como tours, compras, buena alimentación, alojamiento, diversión y esparcimiento, donde buscan experiencias inolvidables; es así como los eventos son un eje fundamental para el desarrollo socio económico.',
+      'Motivaciones, necesidades o intereses varían al emprender un viaje; uno de ellos son los eventos. Quienes viajan a eventos pagan por temáticas y contenidos, pero también desean experiencias adicionales para su tiempo libre, como tours, compras, buena alimentación, alojamiento, diversión y esparcimiento, donde buscan experiencias inolvidables; es así como los eventos son un eje fundamental para el desarrollo socioeconómico.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -83,13 +83,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
-            titulo: 'Recursos para organización de eventos',
+            titulo: 'Recursos para la organización de eventos',
             hash: 't_1_7',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.8',
-            titulo: 'Espacios para realización de eventos',
+            titulo: 'Espacios para la realización de eventos',
             hash: 't_1_8',
           },
           {
