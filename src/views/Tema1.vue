@@ -761,7 +761,7 @@
     p Sin duda, los eventos hacen parte de la historia misma de la humanidad, con ellos se conmemoran fechas y momentos especiales, y muchos de ellos, por el motivo o la majestuosidad del evento, se hacen inolvidables, marcando hitos en la historia. Le invitamos a ver, en el siguiente recurso, algunos de los eventos internacionales más reconocidos:
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/ybpIiGWRmuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/EZAvgGZhUnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center
       .col-lg-10
         .tarjeta.color-primario.p-3.mb-5
@@ -1095,7 +1095,7 @@
               img.aa(src='@/assets/curso/Tema1/ico6.svg', alt='Texto que describa la imagen')
             .col-lg-9.mt-2
               h4.mt-2 Definición de comités de trabajo:
-              p los comités son conjuntos de personas encargadas de un asunto en especial del evento.
+              p Los comités son conjuntos de personas encargadas de un asunto en especial del evento.
           .row.mb-5
             .col-sm-6.col-lg-3.mb-4.mb-lg-0
               .tarjeta--boton.color-primario.p-4.sombra
@@ -1237,7 +1237,7 @@
         .col-lg-3
           p.tta.text-center <strong>Contratación de servicios</strong>
     .row.justify-content-center.bg7
-      .col-lg-12.mb-5.mt-5
+      .col-lg-10.mb-5.mt-5
         img(src='@/assets/curso/Tema1/img38.svg', alt='Texto que describa la imagen')
     .row.mt-5
       .col-lg-4
