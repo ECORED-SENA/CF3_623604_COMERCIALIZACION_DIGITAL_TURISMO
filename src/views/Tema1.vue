@@ -1232,7 +1232,7 @@
           p.mb-0.tte <strong><i>Diseño de la plantilla de asistencia</i></strong>
       .row.justify-content-center.mt-5
         .col-lg-7
-          img(src='@/assets/curso/Tema1/img37.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/Tema1/img37.png', alt='Texto que describa la imagen')
       .row.mt-5
         .col-lg-3
           p.tta.text-center <strong>Contratación de servicios</strong>
