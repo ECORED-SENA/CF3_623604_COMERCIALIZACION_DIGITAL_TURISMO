@@ -1989,10 +1989,10 @@
             ul.lista-ul--color
               li.mb-0
                 i.fas.fa-circle
-                | Material de acreditación: credenciales, folletos, <i>souvenirs</i>, diplomas, etc.
+                p.mb-0 Material de acreditación: credenciales, folletos, <i> souvenirs</i>, diplomas, etc.
               li.mb-0 
                 i.fas.fa-circle
-                | Servicio de <i>catering</i>, <i>coffee break</i>, almuerzos, cenas.
+                p.mb-0 Servicio de <i>catering</i>, <i> coffee break</i>, almuerzos, cenas.
               li.mb-0 
                 i.fas.fa-circle
                 | Personal temporal.
